@@ -1,0 +1,482 @@
+2024-12-27 23:43:31,860 - INFO - Application started
+2024-12-27 23:43:42,581 - INFO - ----------GPU details----------
+2024-12-27 23:43:42,582 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-27 23:43:42,582 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-27 23:43:42,582 - INFO - ----------Processing loop started----------
+2024-12-27 23:43:51,215 - INFO - ----New round of detections----
+2024-12-27 23:43:53,765 - INFO - -----------------------------------------------------
+2024-12-27 23:43:53,765 - INFO - 
+the correlation matrixe: [[(True, 122, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.23, 'confidence_l': 91.79, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 529}, 'object_center_left': {'x': 991, 'y': 735}, 'right_image_aov': {'x': -0.13, 'y': -0.497}, 'left_image_aov': {'x': 1.004, 'y': 8.811}, 'orb_result': 122})]]
+2024-12-27 23:43:53,767 - INFO - The results of Max orb pairs are: [((0, 0), 122)]
+2024-12-27 23:43:53,804 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.44}]
+2024-12-27 23:43:53,804 - INFO - ----New round of detections----
+2024-12-27 23:43:54,193 - INFO - -----------------------------------------------------
+2024-12-27 23:43:54,194 - INFO - 
+the correlation matrixe: [[(True, 123, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.55, 'confidence_l': 90.99, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 955, 'y': 528}, 'object_center_left': {'x': 989, 'y': 736}, 'right_image_aov': {'x': -0.162, 'y': -0.542}, 'left_image_aov': {'x': 0.939, 'y': 8.856}, 'orb_result': 123})]]
+2024-12-27 23:43:54,194 - INFO - The results of Max orb pairs are: [((0, 0), 123)]
+2024-12-27 23:43:54,232 - INFO - The data of objects: [{'name': 'person', 'distance': 11.0, 'angle': 0.39}]
+2024-12-27 23:43:54,233 - INFO - ----New round of detections----
+2024-12-27 23:43:54,624 - INFO - -----------------------------------------------------
+2024-12-27 23:43:54,624 - INFO - 
+the correlation matrixe: [[(True, 102, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.75, 'confidence_l': 91.23, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 954, 'y': 530}, 'object_center_left': {'x': 988, 'y': 737}, 'right_image_aov': {'x': -0.194, 'y': -0.452}, 'left_image_aov': {'x': 0.907, 'y': 8.901}, 'orb_result': 102})]]
+2024-12-27 23:43:54,624 - INFO - The results of Max orb pairs are: [((0, 0), 102)]
+2024-12-27 23:43:54,658 - INFO - The data of objects: [{'name': 'person', 'distance': 11.0, 'angle': 0.36}]
+2024-12-27 23:43:54,658 - INFO - ----New round of detections----
+2024-12-27 23:43:55,059 - INFO - -----------------------------------------------------
+2024-12-27 23:43:55,059 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.05, 'confidence_l': 91.08, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 955, 'y': 530}, 'object_center_left': {'x': 989, 'y': 736}, 'right_image_aov': {'x': -0.162, 'y': -0.452}, 'left_image_aov': {'x': 0.939, 'y': 8.856}, 'orb_result': 107})]]
+2024-12-27 23:43:55,059 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:43:55,108 - INFO - The data of objects: [{'name': 'person', 'distance': 11.0, 'angle': 0.39}]
+2024-12-27 23:43:55,108 - INFO - ----New round of detections----
+2024-12-27 23:43:55,531 - INFO - -----------------------------------------------------
+2024-12-27 23:43:55,532 - INFO - 
+the correlation matrixe: [[(True, 105, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.75, 'confidence_l': 90.87, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 954, 'y': 529}, 'object_center_left': {'x': 989, 'y': 738}, 'right_image_aov': {'x': -0.194, 'y': -0.497}, 'left_image_aov': {'x': 0.939, 'y': 8.947}, 'orb_result': 105})]]
+2024-12-27 23:43:55,532 - INFO - The results of Max orb pairs are: [((0, 0), 105)]
+2024-12-27 23:43:55,565 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.37}]
+2024-12-27 23:43:55,565 - INFO - ----New round of detections----
+2024-12-27 23:43:55,977 - INFO - -----------------------------------------------------
+2024-12-27 23:43:55,978 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.45, 'confidence_l': 90.09, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 950, 'y': 530}, 'object_center_left': {'x': 987, 'y': 739}, 'right_image_aov': {'x': -0.324, 'y': -0.452}, 'left_image_aov': {'x': 0.875, 'y': 8.992}, 'orb_result': 107})]]
+2024-12-27 23:43:55,978 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:43:56,026 - INFO - The data of objects: [{'name': 'person', 'distance': 10.11, 'angle': 0.28}]
+2024-12-27 23:43:56,026 - INFO - ----New round of detections----
+2024-12-27 23:43:56,397 - INFO - -----------------------------------------------------
+2024-12-27 23:43:56,397 - INFO - 
+the correlation matrixe: [[(True, 113, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.5, 'confidence_l': 91.3, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 527}, 'object_center_left': {'x': 989, 'y': 737}, 'right_image_aov': {'x': -0.13, 'y': -0.587}, 'left_image_aov': {'x': 0.939, 'y': 8.901}, 'orb_result': 113})]]
+2024-12-27 23:43:56,397 - INFO - The results of Max orb pairs are: [((0, 0), 113)]
+2024-12-27 23:43:56,434 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.4}]
+2024-12-27 23:43:56,434 - INFO - ----New round of detections----
+2024-12-27 23:43:56,878 - INFO - -----------------------------------------------------
+2024-12-27 23:43:56,878 - INFO - 
+the correlation matrixe: [[(True, 113, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.65, 'confidence_l': 91.39, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 949, 'y': 531}, 'object_center_left': {'x': 989, 'y': 737}, 'right_image_aov': {'x': -0.356, 'y': -0.407}, 'left_image_aov': {'x': 0.939, 'y': 8.901}, 'orb_result': 113})]]
+2024-12-27 23:43:56,878 - INFO - The results of Max orb pairs are: [((0, 0), 113)]
+2024-12-27 23:43:56,912 - INFO - The data of objects: [{'name': 'person', 'distance': 9.35, 'angle': 0.29}]
+2024-12-27 23:43:56,912 - INFO - ----New round of detections----
+2024-12-27 23:43:57,335 - INFO - -----------------------------------------------------
+2024-12-27 23:43:57,336 - INFO - 
+the correlation matrixe: [[(True, 108, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.91, 'confidence_l': 91.19, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 953, 'y': 527}, 'object_center_left': {'x': 988, 'y': 737}, 'right_image_aov': {'x': -0.227, 'y': -0.587}, 'left_image_aov': {'x': 0.907, 'y': 8.901}, 'orb_result': 108})]]
+2024-12-27 23:43:57,336 - INFO - The results of Max orb pairs are: [((0, 0), 108)]
+2024-12-27 23:43:57,371 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.34}]
+2024-12-27 23:43:57,371 - INFO - ----New round of detections----
+2024-12-27 23:43:57,768 - INFO - -----------------------------------------------------
+2024-12-27 23:43:57,769 - INFO - 
+the correlation matrixe: [[(True, 114, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.52, 'confidence_l': 91.13, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 529}, 'object_center_left': {'x': 987, 'y': 737}, 'right_image_aov': {'x': -0.292, 'y': -0.497}, 'left_image_aov': {'x': 0.875, 'y': 8.901}, 'orb_result': 114})]]
+2024-12-27 23:43:57,769 - INFO - The results of Max orb pairs are: [((0, 0), 114)]
+2024-12-27 23:43:57,806 - INFO - The data of objects: [{'name': 'person', 'distance': 10.39, 'angle': 0.29}]
+2024-12-27 23:43:57,807 - INFO - ----New round of detections----
+2024-12-27 23:43:58,169 - INFO - -----------------------------------------------------
+2024-12-27 23:43:58,169 - INFO - 
+the correlation matrixe: [[(True, 121, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.83, 'confidence_l': 90.95, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 954, 'y': 530}, 'object_center_left': {'x': 989, 'y': 735}, 'right_image_aov': {'x': -0.194, 'y': -0.452}, 'left_image_aov': {'x': 0.939, 'y': 8.811}, 'orb_result': 121})]]
+2024-12-27 23:43:58,169 - INFO - The results of Max orb pairs are: [((0, 0), 121)]
+2024-12-27 23:43:58,203 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.37}]
+2024-12-27 23:43:58,203 - INFO - ----New round of detections----
+2024-12-27 23:43:58,599 - INFO - -----------------------------------------------------
+2024-12-27 23:43:58,599 - INFO - 
+the correlation matrixe: [[(True, 124, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 66.92, 'confidence_l': 91.37, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 957, 'y': 527}, 'object_center_left': {'x': 990, 'y': 736}, 'right_image_aov': {'x': -0.097, 'y': -0.587}, 'left_image_aov': {'x': 0.972, 'y': 8.856}, 'orb_result': 124})]]
+2024-12-27 23:43:58,599 - INFO - The results of Max orb pairs are: [((0, 0), 124)]
+2024-12-27 23:43:58,633 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.44}]
+2024-12-27 23:43:58,633 - INFO - ----New round of detections----
+2024-12-27 23:43:59,035 - INFO - -----------------------------------------------------
+2024-12-27 23:43:59,035 - INFO - 
+the correlation matrixe: [[(True, 120, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.91, 'confidence_l': 91.51, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 958, 'y': 526}, 'object_center_left': {'x': 992, 'y': 735}, 'right_image_aov': {'x': -0.065, 'y': -0.633}, 'left_image_aov': {'x': 1.037, 'y': 8.811}, 'orb_result': 120})]]
+2024-12-27 23:43:59,035 - INFO - The results of Max orb pairs are: [((0, 0), 120)]
+2024-12-27 23:43:59,074 - INFO - The data of objects: [{'name': 'person', 'distance': 11.0, 'angle': 0.49}]
+2024-12-27 23:43:59,074 - INFO - ----New round of detections----
+2024-12-27 23:43:59,446 - INFO - -----------------------------------------------------
+2024-12-27 23:43:59,447 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 72.84, 'confidence_l': 90.79, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 954, 'y': 525}, 'object_center_left': {'x': 991, 'y': 735}, 'right_image_aov': {'x': -0.194, 'y': -0.678}, 'left_image_aov': {'x': 1.004, 'y': 8.811}, 'orb_result': 107})]]
+2024-12-27 23:43:59,447 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:43:59,481 - INFO - The data of objects: [{'name': 'person', 'distance': 10.11, 'angle': 0.41}]
+2024-12-27 23:43:59,481 - INFO - ----New round of detections----
+2024-12-27 23:43:59,891 - INFO - -----------------------------------------------------
+2024-12-27 23:43:59,891 - INFO - 
+the correlation matrixe: [[(True, 128, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.95, 'confidence_l': 89.98, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 526}, 'object_center_left': {'x': 988, 'y': 736}, 'right_image_aov': {'x': -0.13, 'y': -0.633}, 'left_image_aov': {'x': 0.907, 'y': 8.856}, 'orb_result': 128})]]
+2024-12-27 23:43:59,891 - INFO - The results of Max orb pairs are: [((0, 0), 128)]
+2024-12-27 23:43:59,925 - INFO - The data of objects: [{'name': 'person', 'distance': 11.69, 'angle': 0.39}]
+2024-12-27 23:43:59,925 - INFO - ----New round of detections----
+2024-12-27 23:44:00,304 - INFO - -----------------------------------------------------
+2024-12-27 23:44:00,304 - INFO - 
+the correlation matrixe: [[(True, 105, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.45, 'confidence_l': 91.14, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 957, 'y': 532}, 'object_center_left': {'x': 989, 'y': 736}, 'right_image_aov': {'x': -0.097, 'y': -0.361}, 'left_image_aov': {'x': 0.939, 'y': 8.856}, 'orb_result': 105})]]
+2024-12-27 23:44:00,304 - INFO - The results of Max orb pairs are: [((0, 0), 105)]
+2024-12-27 23:44:00,335 - INFO - The data of objects: [{'name': 'person', 'distance': 11.69, 'angle': 0.42}]
+2024-12-27 23:44:00,336 - INFO - ----New round of detections----
+2024-12-27 23:44:00,748 - INFO - -----------------------------------------------------
+2024-12-27 23:44:00,749 - INFO - 
+the correlation matrixe: [[(True, 106, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.37, 'confidence_l': 90.83, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 952, 'y': 530}, 'object_center_left': {'x': 988, 'y': 736}, 'right_image_aov': {'x': -0.259, 'y': -0.452}, 'left_image_aov': {'x': 0.907, 'y': 8.856}, 'orb_result': 106})]]
+2024-12-27 23:44:00,749 - INFO - The results of Max orb pairs are: [((0, 0), 106)]
+2024-12-27 23:44:00,792 - INFO - The data of objects: [{'name': 'person', 'distance': 10.39, 'angle': 0.32}]
+2024-12-27 23:44:00,792 - INFO - ----New round of detections----
+2024-12-27 23:44:01,197 - INFO - -----------------------------------------------------
+2024-12-27 23:44:01,197 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.73, 'confidence_l': 90.89, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 953, 'y': 530}, 'object_center_left': {'x': 989, 'y': 738}, 'right_image_aov': {'x': -0.227, 'y': -0.452}, 'left_image_aov': {'x': 0.939, 'y': 8.947}, 'orb_result': 107})]]
+2024-12-27 23:44:01,197 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:44:01,243 - INFO - The data of objects: [{'name': 'person', 'distance': 10.39, 'angle': 0.36}]
+2024-12-27 23:44:01,243 - INFO - ----New round of detections----
+2024-12-27 23:44:01,700 - INFO - -----------------------------------------------------
+2024-12-27 23:44:01,700 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.2, 'confidence_l': 90.75, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 958, 'y': 527}, 'object_center_left': {'x': 988, 'y': 736}, 'right_image_aov': {'x': -0.065, 'y': -0.587}, 'left_image_aov': {'x': 0.907, 'y': 8.856}, 'orb_result': 107})]]
+2024-12-27 23:44:01,700 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:44:01,736 - INFO - The data of objects: [{'name': 'person', 'distance': 12.47, 'angle': 0.42}]
+2024-12-27 23:44:01,736 - INFO - ----New round of detections----
+2024-12-27 23:44:02,147 - INFO - -----------------------------------------------------
+2024-12-27 23:44:02,147 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.34, 'confidence_l': 91.28, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 957, 'y': 527}, 'object_center_left': {'x': 992, 'y': 737}, 'right_image_aov': {'x': -0.097, 'y': -0.587}, 'left_image_aov': {'x': 1.037, 'y': 8.901}, 'orb_result': 107})]]
+2024-12-27 23:44:02,147 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:44:02,207 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.47}]
+2024-12-27 23:44:02,207 - INFO - ----New round of detections----
+2024-12-27 23:44:02,629 - INFO - -----------------------------------------------------
+2024-12-27 23:44:02,629 - INFO - 
+the correlation matrixe: [[(True, 112, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.52, 'confidence_l': 91.4, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 526}, 'object_center_left': {'x': 990, 'y': 737}, 'right_image_aov': {'x': -0.13, 'y': -0.633}, 'left_image_aov': {'x': 0.972, 'y': 8.901}, 'orb_result': 112})]]
+2024-12-27 23:44:02,629 - INFO - The results of Max orb pairs are: [((0, 0), 112)]
+2024-12-27 23:44:02,666 - INFO - The data of objects: [{'name': 'person', 'distance': 11.0, 'angle': 0.42}]
+2024-12-27 23:44:02,667 - INFO - ----New round of detections----
+2024-12-27 23:44:03,067 - INFO - -----------------------------------------------------
+2024-12-27 23:44:03,067 - INFO - 
+the correlation matrixe: [[(True, 110, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.89, 'confidence_l': 91.15, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 952, 'y': 530}, 'object_center_left': {'x': 989, 'y': 736}, 'right_image_aov': {'x': -0.259, 'y': -0.452}, 'left_image_aov': {'x': 0.939, 'y': 8.856}, 'orb_result': 110})]]
+2024-12-27 23:44:03,067 - INFO - The results of Max orb pairs are: [((0, 0), 110)]
+2024-12-27 23:44:03,104 - INFO - The data of objects: [{'name': 'person', 'distance': 10.11, 'angle': 0.34}]
+2024-12-27 23:44:03,104 - INFO - ----New round of detections----
+2024-12-27 23:44:03,535 - INFO - -----------------------------------------------------
+2024-12-27 23:44:03,535 - INFO - 
+the correlation matrixe: [[(True, 103, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.81, 'confidence_l': 90.9, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 955, 'y': 527}, 'object_center_left': {'x': 991, 'y': 737}, 'right_image_aov': {'x': -0.162, 'y': -0.587}, 'left_image_aov': {'x': 1.004, 'y': 8.901}, 'orb_result': 103})]]
+2024-12-27 23:44:03,535 - INFO - The results of Max orb pairs are: [((0, 0), 103)]
+2024-12-27 23:44:03,583 - INFO - The data of objects: [{'name': 'person', 'distance': 10.39, 'angle': 0.42}]
+2024-12-27 23:44:03,584 - INFO - ----New round of detections----
+2024-12-27 23:44:04,061 - INFO - -----------------------------------------------------
+2024-12-27 23:44:04,062 - INFO - 
+the correlation matrixe: [[(True, 117, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.99, 'confidence_l': 90.99, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 526}, 'object_center_left': {'x': 989, 'y': 736}, 'right_image_aov': {'x': -0.13, 'y': -0.633}, 'left_image_aov': {'x': 0.939, 'y': 8.856}, 'orb_result': 117})]]
+2024-12-27 23:44:04,062 - INFO - The results of Max orb pairs are: [((0, 0), 117)]
+2024-12-27 23:44:04,105 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.4}]
+2024-12-27 23:44:04,106 - INFO - ----New round of detections----
+2024-12-27 23:44:04,539 - INFO - -----------------------------------------------------
+2024-12-27 23:44:04,539 - INFO - 
+the correlation matrixe: [[(True, 116, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.83, 'confidence_l': 90.96, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 957, 'y': 527}, 'object_center_left': {'x': 990, 'y': 737}, 'right_image_aov': {'x': -0.097, 'y': -0.587}, 'left_image_aov': {'x': 0.972, 'y': 8.901}, 'orb_result': 116})]]
+2024-12-27 23:44:04,539 - INFO - The results of Max orb pairs are: [((0, 0), 116)]
+2024-12-27 23:44:04,573 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.44}]
+2024-12-27 23:44:04,573 - INFO - ----New round of detections----
+2024-12-27 23:44:04,972 - INFO - -----------------------------------------------------
+2024-12-27 23:44:04,972 - INFO - 
+the correlation matrixe: [[(True, 114, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.33, 'confidence_l': 91.06, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 527}, 'object_center_left': {'x': 988, 'y': 738}, 'right_image_aov': {'x': -0.13, 'y': -0.587}, 'left_image_aov': {'x': 0.907, 'y': 8.947}, 'orb_result': 114})]]
+2024-12-27 23:44:04,972 - INFO - The results of Max orb pairs are: [((0, 0), 114)]
+2024-12-27 23:44:05,011 - INFO - The data of objects: [{'name': 'person', 'distance': 11.69, 'angle': 0.39}]
+2024-12-27 23:44:05,011 - INFO - ----New round of detections----
+2024-12-27 23:44:05,424 - INFO - -----------------------------------------------------
+2024-12-27 23:44:05,424 - INFO - 
+the correlation matrixe: [[(True, 105, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.61, 'confidence_l': 91.23, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 962, 'y': 527}, 'object_center_left': {'x': 990, 'y': 738}, 'right_image_aov': {'x': 0.065, 'y': -0.587}, 'left_image_aov': {'x': 0.972, 'y': 8.947}, 'orb_result': 105})]]
+2024-12-27 23:44:05,424 - INFO - The results of Max orb pairs are: [((0, 0), 105)]
+2024-12-27 23:44:05,460 - INFO - The data of objects: [{'name': 'person', 'distance': 13.36, 'angle': 0.52}]
+2024-12-27 23:44:05,461 - INFO - ----New round of detections----
+2024-12-27 23:44:05,886 - INFO - -----------------------------------------------------
+2024-12-27 23:44:05,887 - INFO - 
+the correlation matrixe: [[(True, 103, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.76, 'confidence_l': 91.67, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 526}, 'object_center_left': {'x': 991, 'y': 737}, 'right_image_aov': {'x': -0.13, 'y': -0.633}, 'left_image_aov': {'x': 1.004, 'y': 8.901}, 'orb_result': 103})]]
+2024-12-27 23:44:05,887 - INFO - The results of Max orb pairs are: [((0, 0), 103)]
+2024-12-27 23:44:05,922 - INFO - The data of objects: [{'name': 'person', 'distance': 10.69, 'angle': 0.44}]
+2024-12-27 23:44:05,922 - INFO - ----New round of detections----
+2024-12-27 23:44:06,353 - INFO - -----------------------------------------------------
+2024-12-27 23:44:06,354 - INFO - 
+the correlation matrixe: [[(True, 122, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.01, 'confidence_l': 91.16, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 957, 'y': 527}, 'object_center_left': {'x': 990, 'y': 738}, 'right_image_aov': {'x': -0.097, 'y': -0.587}, 'left_image_aov': {'x': 0.972, 'y': 8.947}, 'orb_result': 122})]]
+2024-12-27 23:44:06,354 - INFO - The results of Max orb pairs are: [((0, 0), 122)]
+2024-12-27 23:44:06,394 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.44}]
+2024-12-27 23:44:06,394 - INFO - ----New round of detections----
+2024-12-27 23:44:06,810 - INFO - -----------------------------------------------------
+2024-12-27 23:44:06,810 - INFO - 
+the correlation matrixe: [[(True, 108, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.15, 'confidence_l': 90.87, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 956, 'y': 527}, 'object_center_left': {'x': 989, 'y': 737}, 'right_image_aov': {'x': -0.13, 'y': -0.587}, 'left_image_aov': {'x': 0.939, 'y': 8.901}, 'orb_result': 108})]]
+2024-12-27 23:44:06,810 - INFO - The results of Max orb pairs are: [((0, 0), 108)]
+2024-12-27 23:44:06,864 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.4}]
+2024-12-27 23:44:06,864 - INFO - ----New round of detections----
+2024-12-27 23:44:07,298 - INFO - -----------------------------------------------------
+2024-12-27 23:44:07,298 - INFO - 
+the correlation matrixe: [[(True, 114, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.38, 'confidence_l': 91.49, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 955, 'y': 529}, 'object_center_left': {'x': 988, 'y': 738}, 'right_image_aov': {'x': -0.162, 'y': -0.497}, 'left_image_aov': {'x': 0.907, 'y': 8.947}, 'orb_result': 114})]]
+2024-12-27 23:44:07,298 - INFO - The results of Max orb pairs are: [((0, 0), 114)]
+2024-12-27 23:44:07,338 - INFO - The data of objects: [{'name': 'person', 'distance': 11.33, 'angle': 0.37}]
+2024-12-27 23:44:07,338 - INFO - ----New round of detections----
+2024-12-27 23:44:07,758 - INFO - -----------------------------------------------------
+2024-12-27 23:44:07,759 - INFO - 
+the correlation matrixe: [[(True, 116, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.7, 'confidence_l': 91.74, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 958, 'y': 526}, 'object_center_left': {'x': 989, 'y': 738}, 'right_image_aov': {'x': -0.065, 'y': -0.633}, 'left_image_aov': {'x': 0.939, 'y': 8.947}, 'orb_result': 116})]]
+2024-12-27 23:44:07,759 - INFO - The results of Max orb pairs are: [((0, 0), 116)]
+2024-12-27 23:44:07,792 - INFO - The data of objects: [{'name': 'person', 'distance': 12.06, 'angle': 0.44}]
+2024-12-27 23:44:07,793 - INFO - ----New round of detections----
+2024-12-27 23:44:08,214 - INFO - -----------------------------------------------------
+2024-12-27 23:44:08,214 - INFO - 
+the correlation matrixe: [[(True, 119, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.8, 'confidence_l': 90.85, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 961, 'y': 525}, 'object_center_left': {'x': 989, 'y': 731}, 'right_image_aov': {'x': 0.032, 'y': -0.678}, 'left_image_aov': {'x': 0.939, 'y': 8.63}, 'orb_result': 119})]]
+2024-12-27 23:44:08,214 - INFO - The results of Max orb pairs are: [((0, 0), 119)]
+2024-12-27 23:44:08,260 - INFO - The data of objects: [{'name': 'person', 'distance': 13.36, 'angle': 0.49}]
+2024-12-27 23:44:08,260 - INFO - ----New round of detections----
+2024-12-27 23:44:08,682 - INFO - -----------------------------------------------------
+2024-12-27 23:44:08,682 - INFO - 
+the correlation matrixe: [[(True, 100, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 77.29, 'confidence_l': 87.85, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 955, 'y': 522}, 'object_center_left': {'x': 984, 'y': 738}, 'right_image_aov': {'x': -0.162, 'y': -0.813}, 'left_image_aov': {'x': 0.778, 'y': 8.947}, 'orb_result': 100})]]
+2024-12-27 23:44:08,682 - INFO - The results of Max orb pairs are: [((0, 0), 100)]
+2024-12-27 23:44:08,718 - INFO - The data of objects: [{'name': 'person', 'distance': 12.9, 'angle': 0.31}]
+2024-12-27 23:44:08,719 - INFO - ----New round of detections----
+2024-12-27 23:44:09,175 - INFO - -----------------------------------------------------
+2024-12-27 23:44:09,175 - INFO - 
+the correlation matrixe: [[(True, 125, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 72.39, 'confidence_l': 85.61, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 529}, 'object_center_left': {'x': 973, 'y': 737}, 'right_image_aov': {'x': -0.292, 'y': -0.497}, 'left_image_aov': {'x': 0.421, 'y': 8.901}, 'orb_result': 125})]]
+2024-12-27 23:44:09,175 - INFO - The results of Max orb pairs are: [((0, 0), 125)]
+2024-12-27 23:44:09,207 - INFO - The data of objects: [{'name': 'person', 'distance': 17.0, 'angle': 0.06}]
+2024-12-27 23:44:09,207 - INFO - ----New round of detections----
+2024-12-27 23:44:09,603 - INFO - -----------------------------------------------------
+2024-12-27 23:44:09,603 - INFO - 
+the correlation matrixe: [[(True, 112, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.89, 'confidence_l': 81.67, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 950, 'y': 528}, 'object_center_left': {'x': 972, 'y': 730}, 'right_image_aov': {'x': -0.324, 'y': -0.542}, 'left_image_aov': {'x': 0.389, 'y': 8.585}, 'orb_result': 112})]]
+2024-12-27 23:44:09,604 - INFO - The results of Max orb pairs are: [((0, 0), 112)]
+2024-12-27 23:44:09,637 - INFO - The data of objects: [{'name': 'person', 'distance': 17.0, 'angle': 0.03}]
+2024-12-27 23:44:09,637 - INFO - ----New round of detections----
+2024-12-27 23:44:10,058 - INFO - -----------------------------------------------------
+2024-12-27 23:44:10,058 - INFO - 
+the correlation matrixe: [[(True, 95, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 73.91, 'confidence_l': 84.32, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 969, 'y': 521}, 'object_center_left': {'x': 975, 'y': 728}, 'right_image_aov': {'x': 0.292, 'y': -0.859}, 'left_image_aov': {'x': 0.486, 'y': 8.495}, 'orb_result': 95})]]
+2024-12-27 23:44:10,058 - INFO - The results of Max orb pairs are: [((0, 0), 95)]
+2024-12-27 23:44:10,095 - INFO - The data of objects: [{'name': 'person', 'distance': 62.33, 'angle': 0.39}]
+2024-12-27 23:44:10,095 - INFO - ----New round of detections----
+2024-12-27 23:44:10,501 - INFO - -----------------------------------------------------
+2024-12-27 23:44:10,502 - INFO - 
+the correlation matrixe: [[(True, 113, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 77.79, 'confidence_l': 88.36, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 977, 'y': 529}, 'object_center_left': {'x': 983, 'y': 726}, 'right_image_aov': {'x': 0.551, 'y': -0.497}, 'left_image_aov': {'x': 0.745, 'y': 8.404}, 'orb_result': 113})]]
+2024-12-27 23:44:10,502 - INFO - The results of Max orb pairs are: [((0, 0), 113)]
+2024-12-27 23:44:10,541 - INFO - The data of objects: [{'name': 'person', 'distance': 62.33, 'angle': 0.65}]
+2024-12-27 23:44:10,541 - INFO - ----New round of detections----
+2024-12-27 23:44:10,955 - INFO - -----------------------------------------------------
+2024-12-27 23:44:10,955 - INFO - 
+the correlation matrixe: [[(True, 113, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 74.4, 'confidence_l': 85.13, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 966, 'y': 530}, 'object_center_left': {'x': 976, 'y': 728}, 'right_image_aov': {'x': 0.194, 'y': -0.452}, 'left_image_aov': {'x': 0.518, 'y': 8.495}, 'orb_result': 113})]]
+2024-12-27 23:44:10,955 - INFO - The results of Max orb pairs are: [((0, 0), 113)]
+2024-12-27 23:44:10,988 - INFO - The data of objects: [{'name': 'person', 'distance': 37.4, 'angle': 0.36}]
+2024-12-27 23:44:10,988 - INFO - ----New round of detections----
+2024-12-27 23:44:11,395 - INFO - -----------------------------------------------------
+2024-12-27 23:44:11,396 - INFO - 
+the correlation matrixe: [[(True, 105, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 77.36, 'confidence_l': 86.51, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 966, 'y': 532}, 'object_center_left': {'x': 977, 'y': 726}, 'right_image_aov': {'x': 0.194, 'y': -0.361}, 'left_image_aov': {'x': 0.551, 'y': 8.404}, 'orb_result': 105})]]
+2024-12-27 23:44:11,396 - INFO - The results of Max orb pairs are: [((0, 0), 105)]
+2024-12-27 23:44:11,446 - INFO - The data of objects: [{'name': 'person', 'distance': 34.0, 'angle': 0.37}]
+2024-12-27 23:44:11,446 - INFO - ----New round of detections----
+2024-12-27 23:44:11,893 - INFO - -----------------------------------------------------
+2024-12-27 23:44:11,893 - INFO - 
+the correlation matrixe: [[(True, 109, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 78.3, 'confidence_l': 86.41, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 968, 'y': 530}, 'object_center_left': {'x': 977, 'y': 728}, 'right_image_aov': {'x': 0.259, 'y': -0.452}, 'left_image_aov': {'x': 0.551, 'y': 8.495}, 'orb_result': 109})]]
+2024-12-27 23:44:11,893 - INFO - The results of Max orb pairs are: [((0, 0), 109)]
+2024-12-27 23:44:11,931 - INFO - The data of objects: [{'name': 'person', 'distance': 41.55, 'angle': 0.41}]
+2024-12-27 23:44:11,931 - INFO - ----New round of detections----
+2024-12-27 23:44:12,353 - INFO - -----------------------------------------------------
+2024-12-27 23:44:12,353 - INFO - 
+the correlation matrixe: [[(True, 124, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 72.97, 'confidence_l': 86.06, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 960, 'y': 530}, 'object_center_left': {'x': 977, 'y': 727}, 'right_image_aov': {'x': 0.0, 'y': -0.452}, 'left_image_aov': {'x': 0.551, 'y': 8.45}, 'orb_result': 124})]]
+2024-12-27 23:44:12,353 - INFO - The results of Max orb pairs are: [((0, 0), 124)]
+2024-12-27 23:44:12,391 - INFO - The data of objects: [{'name': 'person', 'distance': 22.0, 'angle': 0.28}]
+2024-12-27 23:44:12,391 - INFO - ----New round of detections----
+2024-12-27 23:44:12,772 - INFO - -----------------------------------------------------
+2024-12-27 23:44:12,772 - INFO - 
+the correlation matrixe: [[(True, 112, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 76.08, 'confidence_l': 86.72, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 969, 'y': 530}, 'object_center_left': {'x': 976, 'y': 727}, 'right_image_aov': {'x': 0.292, 'y': -0.452}, 'left_image_aov': {'x': 0.518, 'y': 8.45}, 'orb_result': 112})]]
+2024-12-27 23:44:12,772 - INFO - The results of Max orb pairs are: [((0, 0), 112)]
+2024-12-27 23:44:12,805 - INFO - The data of objects: [{'name': 'person', 'distance': 53.43, 'angle': 0.41}]
+2024-12-27 23:44:12,805 - INFO - ----New round of detections----
+2024-12-27 23:44:13,202 - INFO - -----------------------------------------------------
+2024-12-27 23:44:13,202 - INFO - 
+the correlation matrixe: [[(True, 107, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 76.43, 'confidence_l': 86.81, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 975, 'y': 531}, 'object_center_left': {'x': 978, 'y': 727}, 'right_image_aov': {'x': 0.486, 'y': -0.407}, 'left_image_aov': {'x': 0.583, 'y': 8.45}, 'orb_result': 107})]]
+2024-12-27 23:44:13,202 - INFO - The results of Max orb pairs are: [((0, 0), 107)]
+2024-12-27 23:44:13,240 - INFO - The data of objects: [{'name': 'person', 'distance': 124.66, 'angle': 0.53}]
+2024-12-27 23:44:13,240 - INFO - ----New round of detections----
+2024-12-27 23:44:13,628 - INFO - -----------------------------------------------------
+2024-12-27 23:44:13,628 - INFO - 
+the correlation matrixe: [[(True, 112, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 77.15, 'confidence_l': 89.84, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 982, 'y': 529}, 'object_center_left': {'x': 986, 'y': 724}, 'right_image_aov': {'x': 0.713, 'y': -0.497}, 'left_image_aov': {'x': 0.842, 'y': 8.314}, 'orb_result': 112})]]
+2024-12-27 23:44:13,628 - INFO - The results of Max orb pairs are: [((0, 0), 112)]
+2024-12-27 23:44:13,664 - INFO - The data of objects: [{'name': 'person', 'distance': 93.5, 'angle': 0.78}]
+2024-12-27 23:44:13,664 - INFO - ----New round of detections----
+2024-12-27 23:44:14,080 - INFO - -----------------------------------------------------
+2024-12-27 23:44:14,080 - INFO - 
+the correlation matrixe: [[(True, 101, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 74.04, 'confidence_l': 90.13, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 980, 'y': 529}, 'object_center_left': {'x': 990, 'y': 724}, 'right_image_aov': {'x': 0.648, 'y': -0.497}, 'left_image_aov': {'x': 0.972, 'y': 8.314}, 'orb_result': 101})]]
+2024-12-27 23:44:14,080 - INFO - The results of Max orb pairs are: [((0, 0), 101)]
+2024-12-27 23:44:14,114 - INFO - The data of objects: [{'name': 'person', 'distance': 37.4, 'angle': 0.81}]
+2024-12-27 23:44:14,114 - INFO - ----New round of detections----
+2024-12-27 23:44:14,577 - INFO - -----------------------------------------------------
+2024-12-27 23:44:14,577 - INFO - 
+the correlation matrixe: [[(True, 117, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 74.74, 'confidence_l': 90.61, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 978, 'y': 526}, 'object_center_left': {'x': 992, 'y': 723}, 'right_image_aov': {'x': 0.583, 'y': -0.633}, 'left_image_aov': {'x': 1.037, 'y': 8.269}, 'orb_result': 117})]]
+2024-12-27 23:44:14,577 - INFO - The results of Max orb pairs are: [((0, 0), 117)]
+2024-12-27 23:44:14,631 - INFO - The data of objects: [{'name': 'person', 'distance': 26.71, 'angle': 0.81}]
+2024-12-27 23:44:14,631 - INFO - ----New round of detections----
+2024-12-27 23:44:15,050 - INFO - -----------------------------------------------------
+2024-12-27 23:44:15,050 - INFO - 
+the correlation matrixe: [[(True, 108, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.92, 'confidence_l': 90.43, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 989, 'y': 527}, 'object_center_left': {'x': 990, 'y': 723}, 'right_image_aov': {'x': 0.939, 'y': -0.587}, 'left_image_aov': {'x': 0.972, 'y': 8.269}, 'orb_result': 108})]]
+2024-12-27 23:44:15,050 - INFO - The results of Max orb pairs are: [((0, 0), 108)]
+2024-12-27 23:44:15,091 - INFO - The data of objects: [{'name': 'person', 'distance': 373.98, 'angle': 0.96}]
+2024-12-27 23:44:15,092 - INFO - ----New round of detections----
+2024-12-27 23:44:15,496 - INFO - -----------------------------------------------------
+2024-12-27 23:44:15,496 - INFO - 
+the correlation matrixe: [[(True, 103, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.98, 'confidence_l': 90.84, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 977, 'y': 528}, 'object_center_left': {'x': 996, 'y': 727}, 'right_image_aov': {'x': 0.551, 'y': -0.542}, 'left_image_aov': {'x': 1.166, 'y': 8.45}, 'orb_result': 103})]]
+2024-12-27 23:44:15,496 - INFO - The results of Max orb pairs are: [((0, 0), 103)]
+2024-12-27 23:44:15,532 - INFO - The data of objects: [{'name': 'person', 'distance': 19.68, 'angle': 0.86}]
+2024-12-27 23:44:15,532 - INFO - ----New round of detections----
+2024-12-27 23:44:15,955 - INFO - -----------------------------------------------------
+2024-12-27 23:44:15,955 - INFO - 
+the correlation matrixe: [[(True, 118, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 71.15, 'confidence_l': 90.8, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 973, 'y': 528}, 'object_center_left': {'x': 993, 'y': 728}, 'right_image_aov': {'x': 0.421, 'y': -0.542}, 'left_image_aov': {'x': 1.069, 'y': 8.495}, 'orb_result': 118})]]
+2024-12-27 23:44:15,955 - INFO - The results of Max orb pairs are: [((0, 0), 118)]
+2024-12-27 23:44:15,991 - INFO - The data of objects: [{'name': 'person', 'distance': 18.7, 'angle': 0.74}]
+2024-12-27 23:44:15,991 - INFO - ----New round of detections----
+2024-12-27 23:44:16,400 - INFO - -----------------------------------------------------
+2024-12-27 23:44:16,400 - INFO - 
+the correlation matrixe: [[(True, 106, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 68.05, 'confidence_l': 90.27, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 976, 'y': 527}, 'object_center_left': {'x': 994, 'y': 726}, 'right_image_aov': {'x': 0.518, 'y': -0.587}, 'left_image_aov': {'x': 1.101, 'y': 8.404}, 'orb_result': 106})]]
+2024-12-27 23:44:16,400 - INFO - The results of Max orb pairs are: [((0, 0), 106)]
+2024-12-27 23:44:16,440 - INFO - The data of objects: [{'name': 'person', 'distance': 20.78, 'angle': 0.81}]
+2024-12-27 23:44:16,440 - INFO - ----New round of detections----
+2024-12-27 23:44:16,939 - INFO - -----------------------------------------------------
+2024-12-27 23:44:16,939 - INFO - 
+the correlation matrixe: [[(True, 106, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 67.26, 'confidence_l': 90.18, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 985, 'y': 528}, 'object_center_left': {'x': 994, 'y': 727}, 'right_image_aov': {'x': 0.81, 'y': -0.542}, 'left_image_aov': {'x': 1.101, 'y': 8.45}, 'orb_result': 106})]]
+2024-12-27 23:44:16,939 - INFO - The results of Max orb pairs are: [((0, 0), 106)]
+2024-12-27 23:44:16,993 - INFO - The data of objects: [{'name': 'person', 'distance': 41.55, 'angle': 0.96}]
+2024-12-27 23:44:16,994 - INFO - ----New round of detections----
+2024-12-27 23:44:17,400 - INFO - -----------------------------------------------------
+2024-12-27 23:44:17,400 - INFO - 
+the correlation matrixe: [[(True, 117, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 73.13, 'confidence_l': 90.45, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 972, 'y': 527}, 'object_center_left': {'x': 1001, 'y': 729}, 'right_image_aov': {'x': 0.389, 'y': -0.587}, 'left_image_aov': {'x': 1.328, 'y': 8.54}, 'orb_result': 117})]]
+2024-12-27 23:44:17,400 - INFO - The results of Max orb pairs are: [((0, 0), 117)]
+2024-12-27 23:44:17,435 - INFO - The data of objects: [{'name': 'person', 'distance': 12.9, 'angle': 0.86}]
+2024-12-27 23:44:17,435 - INFO - ----New round of detections----
+2024-12-27 23:44:17,781 - INFO - The data of objects: []
+2024-12-27 23:44:17,781 - INFO - ----New round of detections----
+2024-12-27 23:44:18,108 - INFO - The data of objects: []
+2024-12-27 23:44:18,108 - INFO - ----New round of detections----
+2024-12-27 23:44:18,474 - INFO - The data of objects: []
+2024-12-27 23:44:18,475 - INFO - ----New round of detections----
+2024-12-27 23:44:18,795 - INFO - The data of objects: []
+2024-12-27 23:44:18,795 - INFO - ----New round of detections----
+2024-12-27 23:44:19,141 - INFO - The data of objects: []
+2024-12-27 23:44:19,141 - INFO - ----New round of detections----
+2024-12-27 23:44:19,541 - INFO - The data of objects: []
+2024-12-27 23:44:19,541 - INFO - ----New round of detections----
+2024-12-27 23:44:19,922 - INFO - The data of objects: []
+2024-12-27 23:44:19,922 - INFO - ----New round of detections----
+2024-12-27 23:44:20,249 - INFO - The data of objects: []
+2024-12-27 23:44:20,249 - INFO - ----New round of detections----
+2024-12-27 23:44:20,568 - INFO - The data of objects: []
+2024-12-27 23:44:20,568 - INFO - ----New round of detections----
+2024-12-27 23:44:20,873 - INFO - The data of objects: []
+2024-12-27 23:44:20,873 - INFO - ----New round of detections----
+2024-12-27 23:44:21,235 - INFO - The data of objects: []
+2024-12-27 23:44:21,235 - INFO - ----New round of detections----
+2024-12-27 23:44:21,590 - INFO - The data of objects: []
+2024-12-27 23:44:21,590 - INFO - ----New round of detections----
+2024-12-27 23:44:21,896 - INFO - The data of objects: []
+2024-12-27 23:44:21,896 - INFO - ----New round of detections----
+2024-12-27 23:44:22,319 - INFO - The data of objects: []
+2024-12-27 23:44:22,319 - INFO - ----New round of detections----
+2024-12-27 23:44:22,701 - INFO - The data of objects: []
+2024-12-27 23:44:22,701 - INFO - ----New round of detections----
+2024-12-27 23:44:23,013 - INFO - The data of objects: []
+2024-12-27 23:44:23,013 - INFO - ----New round of detections----
+2024-12-27 23:44:23,348 - INFO - The data of objects: []
+2024-12-27 23:44:23,348 - INFO - ----New round of detections----
+2024-12-27 23:44:23,691 - INFO - The data of objects: []
+2024-12-27 23:44:23,691 - INFO - ----New round of detections----
+2024-12-27 23:44:24,070 - INFO - -----------------------------------------------------
+2024-12-27 23:44:24,070 - INFO - 
+the correlation matrixe: [[(True, 87, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 75.05, 'confidence_l': 89.13, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 966, 'y': 523}, 'object_center_left': {'x': 1016, 'y': 727}, 'right_image_aov': {'x': 0.194, 'y': -0.768}, 'left_image_aov': {'x': 1.814, 'y': 8.45}, 'orb_result': 87})]]
+2024-12-27 23:44:24,070 - INFO - The results of Max orb pairs are: [((0, 0), 87)]
+2024-12-27 23:44:24,109 - INFO - The data of objects: [{'name': 'person', 'distance': 7.48, 'angle': 1.0}]
+2024-12-27 23:44:24,109 - INFO - ----New round of detections----
+2024-12-27 23:44:24,570 - INFO - -----------------------------------------------------
+2024-12-27 23:44:24,570 - INFO - 
+the correlation matrixe: [[(True, 99, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 66.03, 'confidence_l': 87.59, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 966, 'y': 525}, 'object_center_left': {'x': 1054, 'y': 730}, 'right_image_aov': {'x': 0.194, 'y': -0.678}, 'left_image_aov': {'x': 3.045, 'y': 8.585}, 'orb_result': 99})]]
+2024-12-27 23:44:24,570 - INFO - The results of Max orb pairs are: [((0, 0), 99)]
+2024-12-27 23:44:24,609 - INFO - The data of objects: [{'name': 'person', 'distance': 4.25, 'angle': 1.62}]
+2024-12-27 23:44:24,609 - INFO - ----New round of detections----
+2024-12-27 23:44:25,000 - INFO - -----------------------------------------------------
+2024-12-27 23:44:25,000 - INFO - 
+the correlation matrixe: [[(True, 110, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 66.77, 'confidence_l': 89.6, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 970, 'y': 526}, 'object_center_left': {'x': 1049, 'y': 741}, 'right_image_aov': {'x': 0.324, 'y': -0.633}, 'left_image_aov': {'x': 2.883, 'y': 9.082}, 'orb_result': 110})]]
+2024-12-27 23:44:25,000 - INFO - The results of Max orb pairs are: [((0, 0), 110)]
+2024-12-27 23:44:25,034 - INFO - The data of objects: [{'name': 'person', 'distance': 4.73, 'angle': 1.6}]
+2024-12-27 23:44:25,034 - INFO - ----New round of detections----
+2024-12-27 23:44:25,512 - INFO - -----------------------------------------------------
+2024-12-27 23:44:25,512 - INFO - 
+the correlation matrixe: [[(True, 109, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.57, 'confidence_l': 86.55, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 977, 'y': 526}, 'object_center_left': {'x': 1030, 'y': 731}, 'right_image_aov': {'x': 0.551, 'y': -0.633}, 'left_image_aov': {'x': 2.268, 'y': 8.63}, 'orb_result': 109})]]
+2024-12-27 23:44:25,512 - INFO - The results of Max orb pairs are: [((0, 0), 109)]
+2024-12-27 23:44:25,564 - INFO - The data of objects: [{'name': 'person', 'distance': 7.06, 'angle': 1.41}]
+2024-12-27 23:44:25,564 - INFO - ----New round of detections----
+2024-12-27 23:44:25,994 - INFO - -----------------------------------------------------
+2024-12-27 23:44:25,995 - INFO - 
+the correlation matrixe: [[(True, 100, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 65.07, 'confidence_l': 86.72, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 980, 'y': 524}, 'object_center_left': {'x': 1039, 'y': 733}, 'right_image_aov': {'x': 0.648, 'y': -0.723}, 'left_image_aov': {'x': 2.559, 'y': 8.721}, 'orb_result': 100})]]
+2024-12-27 23:44:25,995 - INFO - The results of Max orb pairs are: [((0, 0), 100)]
+2024-12-27 23:44:26,038 - INFO - The data of objects: [{'name': 'person', 'distance': 6.34, 'angle': 1.6}]
+2024-12-27 23:44:26,038 - INFO - ----New round of detections----
+2024-12-27 23:44:26,446 - INFO - -----------------------------------------------------
+2024-12-27 23:44:26,446 - INFO - 
+the correlation matrixe: [[(True, 99, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 64.64, 'confidence_l': 85.57, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 972, 'y': 527}, 'object_center_left': {'x': 1032, 'y': 733}, 'right_image_aov': {'x': 0.389, 'y': -0.587}, 'left_image_aov': {'x': 2.333, 'y': 8.721}, 'orb_result': 99})]]
+2024-12-27 23:44:26,447 - INFO - The results of Max orb pairs are: [((0, 0), 99)]
+2024-12-27 23:44:26,478 - INFO - The data of objects: [{'name': 'person', 'distance': 6.23, 'angle': 1.36}]
+2024-12-27 23:44:26,478 - INFO - ----New round of detections----
+2024-12-27 23:44:26,890 - INFO - -----------------------------------------------------
+2024-12-27 23:44:26,890 - INFO - 
+the correlation matrixe: [[(True, 116, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 65.35, 'confidence_l': 83.75, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 984, 'y': 527}, 'object_center_left': {'x': 1024, 'y': 733}, 'right_image_aov': {'x': 0.778, 'y': -0.587}, 'left_image_aov': {'x': 2.073, 'y': 8.721}, 'orb_result': 116})]]
+2024-12-27 23:44:26,890 - INFO - The results of Max orb pairs are: [((0, 0), 116)]
+2024-12-27 23:44:26,924 - INFO - The data of objects: [{'name': 'person', 'distance': 9.35, 'angle': 1.43}]
+2024-12-27 23:44:26,924 - INFO - ----New round of detections----
+2024-12-27 23:44:27,372 - INFO - -----------------------------------------------------
+2024-12-27 23:44:27,373 - INFO - 
+the correlation matrixe: [[(True, 104, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 65.19, 'confidence_l': 86.35, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 972, 'y': 525}, 'object_center_left': {'x': 1036, 'y': 734}, 'right_image_aov': {'x': 0.389, 'y': -0.678}, 'left_image_aov': {'x': 2.462, 'y': 8.766}, 'orb_result': 104})]]
+2024-12-27 23:44:27,373 - INFO - The results of Max orb pairs are: [((0, 0), 104)]
+2024-12-27 23:44:27,418 - INFO - The data of objects: [{'name': 'person', 'distance': 5.84, 'angle': 1.43}]
+2024-12-27 23:44:27,419 - INFO - ----New round of detections----
+2024-12-27 23:44:27,837 - INFO - -----------------------------------------------------
+2024-12-27 23:44:27,838 - INFO - 
+the correlation matrixe: [[(True, 111, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 65.16, 'confidence_l': 85.42, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 975, 'y': 525}, 'object_center_left': {'x': 1036, 'y': 735}, 'right_image_aov': {'x': 0.486, 'y': -0.678}, 'left_image_aov': {'x': 2.462, 'y': 8.811}, 'orb_result': 111})]]
+2024-12-27 23:44:27,838 - INFO - The results of Max orb pairs are: [((0, 0), 111)]
+2024-12-27 23:44:27,877 - INFO - The data of objects: [{'name': 'person', 'distance': 6.13, 'angle': 1.47}]
+2024-12-27 23:44:27,877 - INFO - ----New round of detections----
+2024-12-27 23:44:28,344 - INFO - -----------------------------------------------------
+2024-12-27 23:44:28,344 - INFO - 
+the correlation matrixe: [[(True, 103, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 60.15, 'confidence_l': 85.81, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 972, 'y': 527}, 'object_center_left': {'x': 1035, 'y': 735}, 'right_image_aov': {'x': 0.389, 'y': -0.587}, 'left_image_aov': {'x': 2.43, 'y': 8.811}, 'orb_result': 103})]]
+2024-12-27 23:44:28,344 - INFO - The results of Max orb pairs are: [((0, 0), 103)]
+2024-12-27 23:44:28,383 - INFO - The data of objects: [{'name': 'person', 'distance': 5.94, 'angle': 1.41}]
+2024-12-27 23:44:28,383 - INFO - ----New round of detections----
+2024-12-27 23:44:28,700 - INFO - The data of objects: []
+2024-12-27 23:44:28,700 - INFO - ----New round of detections----
+2024-12-27 23:44:29,113 - INFO - -----------------------------------------------------
+2024-12-27 23:44:29,113 - INFO - 
+the correlation matrixe: [[(True, 84, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.79, 'confidence_l': 86.87, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 975, 'y': 524}, 'object_center_left': {'x': 1058, 'y': 731}, 'right_image_aov': {'x': 0.486, 'y': -0.723}, 'left_image_aov': {'x': 3.175, 'y': 8.63}, 'orb_result': 84})]]
+2024-12-27 23:44:29,113 - INFO - The results of Max orb pairs are: [((0, 0), 84)]
+2024-12-27 23:44:29,150 - INFO - The data of objects: [{'name': 'person', 'distance': 4.51, 'angle': 1.83}]
+2024-12-27 23:44:29,150 - INFO - ----New round of detections----
+2024-12-27 23:44:29,546 - INFO - -----------------------------------------------------
+2024-12-27 23:44:29,546 - INFO - 
+the correlation matrixe: [[(True, 105, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 76.18, 'confidence_l': 90.0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 971, 'y': 525}, 'object_center_left': {'x': 1050, 'y': 729}, 'right_image_aov': {'x': 0.356, 'y': -0.678}, 'left_image_aov': {'x': 2.916, 'y': 8.54}, 'orb_result': 105})]]
+2024-12-27 23:44:29,546 - INFO - The results of Max orb pairs are: [((0, 0), 105)]
+2024-12-27 23:44:29,598 - INFO - The data of objects: [{'name': 'person', 'distance': 4.73, 'angle': 1.64}]
+2024-12-27 23:44:29,598 - INFO - ----New round of detections----
+2024-12-27 23:44:30,066 - INFO - -----------------------------------------------------
+2024-12-27 23:44:30,066 - INFO - 
+the correlation matrixe: [[(True, 90, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 73.25, 'confidence_l': 90.05, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 968, 'y': 527}, 'object_center_left': {'x': 1036, 'y': 729}, 'right_image_aov': {'x': 0.259, 'y': -0.587}, 'left_image_aov': {'x': 2.462, 'y': 8.54}, 'orb_result': 90})]]
+2024-12-27 23:44:30,066 - INFO - The results of Max orb pairs are: [((0, 0), 90)]
+2024-12-27 23:44:30,110 - INFO - The data of objects: [{'name': 'person', 'distance': 5.5, 'angle': 1.36}]
+2024-12-27 23:44:30,110 - INFO - ----New round of detections----
+2024-12-27 23:44:30,561 - INFO - -----------------------------------------------------
+2024-12-27 23:44:30,562 - INFO - 
+the correlation matrixe: [[(True, 116, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 67.09, 'confidence_l': 86.53, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 960, 'y': 527}, 'object_center_left': {'x': 1083, 'y': 729}, 'right_image_aov': {'x': 0.0, 'y': -0.587}, 'left_image_aov': {'x': 3.985, 'y': 8.54}, 'orb_result': 116})]]
+2024-12-27 23:44:30,562 - INFO - The results of Max orb pairs are: [((0, 0), 116)]
+2024-12-27 23:44:30,613 - INFO - The data of objects: [{'name': 'person', 'distance': 3.04, 'angle': 1.99}]
+2024-12-27 23:44:30,613 - INFO - ----New round of detections----
+2024-12-27 23:44:31,004 - INFO - -----------------------------------------------------
+2024-12-27 23:44:31,004 - INFO - 
+the correlation matrixe: [[(True, 103, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 76.52, 'confidence_l': 83.84, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 971, 'y': 522}, 'object_center_left': {'x': 977, 'y': 736}, 'right_image_aov': {'x': 0.356, 'y': -0.813}, 'left_image_aov': {'x': 0.551, 'y': 8.856}, 'orb_result': 103})]]
+2024-12-27 23:44:31,004 - INFO - The results of Max orb pairs are: [((0, 0), 103)]
+2024-12-27 23:44:31,043 - INFO - The data of objects: [{'name': 'person', 'distance': 62.33, 'angle': 0.45}]
+2024-12-27 23:44:31,044 - INFO - ----New round of detections----
+2024-12-27 23:44:31,537 - INFO - -----------------------------------------------------
+2024-12-27 23:44:31,538 - INFO - 
+the correlation matrixe: [[(True, 106, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 77.19, 'confidence_l': 83.62, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 968, 'y': 523}, 'object_center_left': {'x': 973, 'y': 730}, 'right_image_aov': {'x': 0.259, 'y': -0.768}, 'left_image_aov': {'x': 0.421, 'y': 8.585}, 'orb_result': 106})]]
+2024-12-27 23:44:31,538 - INFO - The results of Max orb pairs are: [((0, 0), 106)]
+2024-12-27 23:44:31,580 - INFO - The data of objects: [{'name': 'person', 'distance': 74.8, 'angle': 0.34}]
+2024-12-27 23:44:31,581 - INFO - ----New round of detections----
+2024-12-27 23:44:31,976 - INFO - -----------------------------------------------------
+2024-12-27 23:44:31,977 - INFO - 
+the correlation matrixe: [[(True, 110, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 75.31, 'confidence_l': 90.46, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 964, 'y': 523}, 'object_center_left': {'x': 1040, 'y': 731}, 'right_image_aov': {'x': 0.13, 'y': -0.768}, 'left_image_aov': {'x': 2.592, 'y': 8.63}, 'orb_result': 110})]]
+2024-12-27 23:44:31,977 - INFO - The results of Max orb pairs are: [((0, 0), 110)]
+2024-12-27 23:44:32,024 - INFO - The data of objects: [{'name': 'person', 'distance': 4.92, 'angle': 1.36}]
+2024-12-27 23:44:32,024 - INFO - ----New round of detections----
+2024-12-27 23:44:32,472 - INFO - -----------------------------------------------------
+2024-12-27 23:44:32,472 - INFO - 
+the correlation matrixe: [[(True, 106, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 64.7, 'confidence_l': 90.11, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 963, 'y': 525}, 'object_center_left': {'x': 1034, 'y': 724}, 'right_image_aov': {'x': 0.097, 'y': -0.678}, 'left_image_aov': {'x': 2.397, 'y': 8.314}, 'orb_result': 106})]]
+2024-12-27 23:44:32,472 - INFO - The results of Max orb pairs are: [((0, 0), 106)]
+2024-12-27 23:44:32,503 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 332, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\_backend_tk.py", line 116, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-27 23:44:32,505 - INFO - The video ended and now the App will be close! Bey Bey

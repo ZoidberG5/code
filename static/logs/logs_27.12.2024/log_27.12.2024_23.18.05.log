@@ -1,0 +1,12 @@
+2024-12-27 23:18:05,961 - INFO - Application started
+2024-12-27 23:18:12,911 - INFO - ----------GPU details----------
+2024-12-27 23:18:12,911 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-27 23:18:12,912 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-27 23:18:12,912 - INFO - ----------Processing loop started----------
+2024-12-27 23:18:24,543 - INFO - ----New round of detections----
+2024-12-27 23:18:25,504 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 211, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-27 23:18:25,505 - INFO - The video ended and now the App will be close! Bey Bey

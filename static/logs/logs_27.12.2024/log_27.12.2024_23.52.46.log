@@ -1,0 +1,94 @@
+2024-12-27 23:52:46,387 - INFO - Application started
+2024-12-27 23:52:56,764 - INFO - ----------GPU details----------
+2024-12-27 23:52:56,765 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-27 23:52:56,765 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-27 23:52:56,765 - INFO - ----------Processing loop started----------
+2024-12-27 23:53:05,169 - INFO - ----New round of detections----
+2024-12-27 23:53:07,553 - INFO - The data of objects: []
+2024-12-27 23:53:07,553 - INFO - ----New round of detections----
+2024-12-27 23:53:07,956 - INFO - The data of objects: []
+2024-12-27 23:53:07,958 - INFO - ----New round of detections----
+2024-12-27 23:53:08,363 - INFO - The data of objects: []
+2024-12-27 23:53:08,364 - INFO - ----New round of detections----
+2024-12-27 23:53:08,794 - INFO - The data of objects: []
+2024-12-27 23:53:08,794 - INFO - ----New round of detections----
+2024-12-27 23:53:09,221 - INFO - The data of objects: []
+2024-12-27 23:53:09,221 - INFO - ----New round of detections----
+2024-12-27 23:53:09,651 - INFO - The data of objects: []
+2024-12-27 23:53:09,651 - INFO - ----New round of detections----
+2024-12-27 23:53:10,078 - INFO - The data of objects: []
+2024-12-27 23:53:10,078 - INFO - ----New round of detections----
+2024-12-27 23:53:10,494 - INFO - The data of objects: []
+2024-12-27 23:53:10,494 - INFO - ----New round of detections----
+2024-12-27 23:53:10,909 - INFO - The data of objects: []
+2024-12-27 23:53:10,909 - INFO - ----New round of detections----
+2024-12-27 23:53:11,337 - INFO - The data of objects: []
+2024-12-27 23:53:11,337 - INFO - ----New round of detections----
+2024-12-27 23:53:11,809 - INFO - The data of objects: []
+2024-12-27 23:53:11,809 - INFO - ----New round of detections----
+2024-12-27 23:53:12,273 - INFO - The data of objects: []
+2024-12-27 23:53:12,273 - INFO - ----New round of detections----
+2024-12-27 23:53:12,716 - INFO - The data of objects: []
+2024-12-27 23:53:12,716 - INFO - ----New round of detections----
+2024-12-27 23:53:13,179 - INFO - The data of objects: []
+2024-12-27 23:53:13,179 - INFO - ----New round of detections----
+2024-12-27 23:53:13,640 - INFO - The data of objects: []
+2024-12-27 23:53:13,641 - INFO - ----New round of detections----
+2024-12-27 23:53:14,121 - INFO - The data of objects: []
+2024-12-27 23:53:14,122 - INFO - ----New round of detections----
+2024-12-27 23:53:14,615 - INFO - The data of objects: []
+2024-12-27 23:53:14,615 - INFO - ----New round of detections----
+2024-12-27 23:53:15,114 - INFO - The data of objects: []
+2024-12-27 23:53:15,115 - INFO - ----New round of detections----
+2024-12-27 23:53:15,621 - INFO - The data of objects: []
+2024-12-27 23:53:15,621 - INFO - ----New round of detections----
+2024-12-27 23:53:16,114 - INFO - The data of objects: []
+2024-12-27 23:53:16,115 - INFO - ----New round of detections----
+2024-12-27 23:53:16,577 - INFO - The data of objects: []
+2024-12-27 23:53:16,577 - INFO - ----New round of detections----
+2024-12-27 23:53:17,020 - INFO - The data of objects: []
+2024-12-27 23:53:17,020 - INFO - ----New round of detections----
+2024-12-27 23:53:17,443 - INFO - The data of objects: []
+2024-12-27 23:53:17,443 - INFO - ----New round of detections----
+2024-12-27 23:53:17,898 - INFO - The data of objects: []
+2024-12-27 23:53:17,898 - INFO - ----New round of detections----
+2024-12-27 23:53:18,359 - INFO - The data of objects: []
+2024-12-27 23:53:18,360 - INFO - ----New round of detections----
+2024-12-27 23:53:18,782 - INFO - The data of objects: []
+2024-12-27 23:53:18,782 - INFO - ----New round of detections----
+2024-12-27 23:53:19,191 - INFO - The data of objects: []
+2024-12-27 23:53:19,192 - INFO - ----New round of detections----
+2024-12-27 23:53:19,617 - INFO - The data of objects: []
+2024-12-27 23:53:19,618 - INFO - ----New round of detections----
+2024-12-27 23:53:20,061 - INFO - The data of objects: []
+2024-12-27 23:53:20,061 - INFO - ----New round of detections----
+2024-12-27 23:53:20,510 - INFO - The data of objects: []
+2024-12-27 23:53:20,510 - INFO - ----New round of detections----
+2024-12-27 23:53:20,952 - INFO - The data of objects: []
+2024-12-27 23:53:20,952 - INFO - ----New round of detections----
+2024-12-27 23:53:21,397 - INFO - The data of objects: []
+2024-12-27 23:53:21,397 - INFO - ----New round of detections----
+2024-12-27 23:53:21,874 - INFO - The data of objects: []
+2024-12-27 23:53:21,874 - INFO - ----New round of detections----
+2024-12-27 23:53:22,340 - INFO - The data of objects: []
+2024-12-27 23:53:22,340 - INFO - ----New round of detections----
+2024-12-27 23:53:22,878 - INFO - The data of objects: []
+2024-12-27 23:53:22,878 - INFO - ----New round of detections----
+2024-12-27 23:53:23,337 - INFO - The data of objects: []
+2024-12-27 23:53:23,337 - INFO - ----New round of detections----
+2024-12-27 23:53:23,768 - INFO - The data of objects: []
+2024-12-27 23:53:23,768 - INFO - ----New round of detections----
+2024-12-27 23:53:24,244 - INFO - The data of objects: []
+2024-12-27 23:53:24,244 - INFO - ----New round of detections----
+2024-12-27 23:53:24,720 - INFO - The data of objects: []
+2024-12-27 23:53:24,721 - INFO - ----New round of detections----
+2024-12-27 23:53:25,210 - INFO - The data of objects: []
+2024-12-27 23:53:25,210 - INFO - ----New round of detections----
+2024-12-27 23:53:25,697 - INFO - The data of objects: []
+2024-12-27 23:53:25,698 - INFO - ----New round of detections----
+2024-12-27 23:53:26,197 - INFO - The data of objects: []
+2024-12-27 23:53:26,197 - INFO - ----New round of detections----
+2024-12-27 23:53:26,669 - INFO - The data of objects: []
+2024-12-27 23:53:26,669 - INFO - ----New round of detections----
+2024-12-27 23:53:27,120 - INFO - The data of objects: []
+2024-12-27 23:53:27,120 - INFO - ----New round of detections----

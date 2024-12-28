@@ -1,0 +1,723 @@
+2024-12-14 14:16:29,082 - INFO - Application started
+2024-12-14 14:16:32,547 - INFO - ----------Processing loop started----------
+2024-12-14 14:16:32,548 - INFO - ----New round of detections----
+2024-12-14 14:16:32,649 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:32,650 - INFO - ----New round of detections----
+2024-12-14 14:16:32,735 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:32,735 - INFO - ----New round of detections----
+2024-12-14 14:16:32,813 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:32,813 - INFO - ----New round of detections----
+2024-12-14 14:16:32,895 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:32,895 - INFO - ----New round of detections----
+2024-12-14 14:16:32,972 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:32,972 - INFO - ----New round of detections----
+2024-12-14 14:16:33,044 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,044 - INFO - ----New round of detections----
+2024-12-14 14:16:33,118 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,118 - INFO - ----New round of detections----
+2024-12-14 14:16:33,216 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,216 - INFO - ----New round of detections----
+2024-12-14 14:16:33,300 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,300 - INFO - ----New round of detections----
+2024-12-14 14:16:33,376 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,376 - INFO - ----New round of detections----
+2024-12-14 14:16:33,454 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,454 - INFO - ----New round of detections----
+2024-12-14 14:16:33,527 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,527 - INFO - ----New round of detections----
+2024-12-14 14:16:33,608 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,608 - INFO - ----New round of detections----
+2024-12-14 14:16:33,687 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,687 - INFO - ----New round of detections----
+2024-12-14 14:16:33,762 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,762 - INFO - ----New round of detections----
+2024-12-14 14:16:33,837 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,837 - INFO - ----New round of detections----
+2024-12-14 14:16:33,912 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,912 - INFO - ----New round of detections----
+2024-12-14 14:16:33,986 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:33,987 - INFO - ----New round of detections----
+2024-12-14 14:16:34,058 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,063 - INFO - ----New round of detections----
+2024-12-14 14:16:34,136 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,136 - INFO - ----New round of detections----
+2024-12-14 14:16:34,207 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,208 - INFO - ----New round of detections----
+2024-12-14 14:16:34,270 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,270 - INFO - ----New round of detections----
+2024-12-14 14:16:34,343 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,344 - INFO - ----New round of detections----
+2024-12-14 14:16:34,416 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,417 - INFO - ----New round of detections----
+2024-12-14 14:16:34,486 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,486 - INFO - ----New round of detections----
+2024-12-14 14:16:34,557 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,558 - INFO - ----New round of detections----
+2024-12-14 14:16:34,628 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,629 - INFO - ----New round of detections----
+2024-12-14 14:16:34,704 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,704 - INFO - ----New round of detections----
+2024-12-14 14:16:34,771 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,771 - INFO - ----New round of detections----
+2024-12-14 14:16:34,847 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,848 - INFO - ----New round of detections----
+2024-12-14 14:16:34,918 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,919 - INFO - ----New round of detections----
+2024-12-14 14:16:34,983 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:34,984 - INFO - ----New round of detections----
+2024-12-14 14:16:35,048 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,048 - INFO - ----New round of detections----
+2024-12-14 14:16:35,116 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,116 - INFO - ----New round of detections----
+2024-12-14 14:16:35,182 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,182 - INFO - ----New round of detections----
+2024-12-14 14:16:35,249 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,249 - INFO - ----New round of detections----
+2024-12-14 14:16:35,316 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,316 - INFO - ----New round of detections----
+2024-12-14 14:16:35,433 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,433 - INFO - ----New round of detections----
+2024-12-14 14:16:35,516 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,530 - INFO - ----New round of detections----
+2024-12-14 14:16:35,629 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,630 - INFO - ----New round of detections----
+2024-12-14 14:16:35,707 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,707 - INFO - ----New round of detections----
+2024-12-14 14:16:35,787 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,787 - INFO - ----New round of detections----
+2024-12-14 14:16:35,851 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,851 - INFO - ----New round of detections----
+2024-12-14 14:16:35,933 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:35,933 - INFO - ----New round of detections----
+2024-12-14 14:16:36,019 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,019 - INFO - ----New round of detections----
+2024-12-14 14:16:36,097 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,098 - INFO - ----New round of detections----
+2024-12-14 14:16:36,165 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,165 - INFO - ----New round of detections----
+2024-12-14 14:16:36,232 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,232 - INFO - ----New round of detections----
+2024-12-14 14:16:36,315 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,316 - INFO - ----New round of detections----
+2024-12-14 14:16:36,382 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,382 - INFO - ----New round of detections----
+2024-12-14 14:16:36,448 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,448 - INFO - ----New round of detections----
+2024-12-14 14:16:36,535 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,536 - INFO - ----New round of detections----
+2024-12-14 14:16:36,606 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,606 - INFO - ----New round of detections----
+2024-12-14 14:16:36,665 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,665 - INFO - ----New round of detections----
+2024-12-14 14:16:36,749 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,749 - INFO - ----New round of detections----
+2024-12-14 14:16:36,830 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,830 - INFO - ----New round of detections----
+2024-12-14 14:16:36,898 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,898 - INFO - ----New round of detections----
+2024-12-14 14:16:36,980 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:36,980 - INFO - ----New round of detections----
+2024-12-14 14:16:37,048 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,048 - INFO - ----New round of detections----
+2024-12-14 14:16:37,132 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,132 - INFO - ----New round of detections----
+2024-12-14 14:16:37,198 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,198 - INFO - ----New round of detections----
+2024-12-14 14:16:37,265 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,265 - INFO - ----New round of detections----
+2024-12-14 14:16:37,350 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,350 - INFO - ----New round of detections----
+2024-12-14 14:16:37,424 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,424 - INFO - ----New round of detections----
+2024-12-14 14:16:37,499 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,499 - INFO - ----New round of detections----
+2024-12-14 14:16:37,566 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,566 - INFO - ----New round of detections----
+2024-12-14 14:16:37,615 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,630 - INFO - ----New round of detections----
+2024-12-14 14:16:37,682 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,682 - INFO - ----New round of detections----
+2024-12-14 14:16:37,749 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,764 - INFO - ----New round of detections----
+2024-12-14 14:16:37,832 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,832 - INFO - ----New round of detections----
+2024-12-14 14:16:37,898 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,898 - INFO - ----New round of detections----
+2024-12-14 14:16:37,965 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:37,965 - INFO - ----New round of detections----
+2024-12-14 14:16:38,038 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,038 - INFO - ----New round of detections----
+2024-12-14 14:16:38,098 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,098 - INFO - ----New round of detections----
+2024-12-14 14:16:38,165 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,165 - INFO - ----New round of detections----
+2024-12-14 14:16:38,273 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,273 - INFO - ----New round of detections----
+2024-12-14 14:16:38,331 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,331 - INFO - ----New round of detections----
+2024-12-14 14:16:38,414 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,414 - INFO - ----New round of detections----
+2024-12-14 14:16:38,480 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,480 - INFO - ----New round of detections----
+2024-12-14 14:16:38,547 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,547 - INFO - ----New round of detections----
+2024-12-14 14:16:38,615 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,615 - INFO - ----New round of detections----
+2024-12-14 14:16:38,680 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,681 - INFO - ----New round of detections----
+2024-12-14 14:16:38,747 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,748 - INFO - ----New round of detections----
+2024-12-14 14:16:38,814 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,814 - INFO - ----New round of detections----
+2024-12-14 14:16:38,883 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,883 - INFO - ----New round of detections----
+2024-12-14 14:16:38,948 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:38,948 - INFO - ----New round of detections----
+2024-12-14 14:16:39,015 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:39,015 - INFO - ----New round of detections----
+2024-12-14 14:16:39,082 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:39,082 - INFO - ----New round of detections----
+2024-12-14 14:16:39,148 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:39,148 - INFO - ----New round of detections----
+2024-12-14 14:16:39,215 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 44, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+TypeError: 'NoneType' object is not callable
+2024-12-14 14:16:39,215 - INFO - ----New round of detections----

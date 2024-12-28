@@ -1,0 +1,14 @@
+2024-12-27 23:49:27,107 - INFO - Application started
+2024-12-27 23:49:40,713 - INFO - ----------GPU details----------
+2024-12-27 23:49:40,713 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-27 23:49:40,713 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-27 23:49:40,713 - INFO - ----------Processing loop started----------
+2024-12-27 23:49:49,227 - INFO - ----New round of detections----
+2024-12-27 23:49:53,448 - INFO - The data of objects: []
+2024-12-27 23:49:53,449 - INFO - ----New round of detections----
+2024-12-27 23:50:00,018 - INFO - The data of objects: []
+2024-12-27 23:50:00,020 - INFO - ----New round of detections----
+2024-12-27 23:50:07,213 - INFO - The data of objects: []
+2024-12-27 23:50:07,213 - INFO - ----New round of detections----
+2024-12-27 23:50:08,608 - INFO - The data of objects: []
+2024-12-27 23:50:08,608 - INFO - ----New round of detections----

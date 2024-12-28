@@ -1,0 +1,957 @@
+2024-12-14 10:00:45,995 - INFO - Application started
+2024-12-14 10:00:49,264 - INFO - ----------Processing loop started----------
+2024-12-14 10:01:01,497 - INFO - ----New round of detections----
+2024-12-14 10:01:02,027 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,028 - INFO - ----New round of detections----
+2024-12-14 10:01:02,099 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,099 - INFO - ----New round of detections----
+2024-12-14 10:01:02,153 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,153 - INFO - ----New round of detections----
+2024-12-14 10:01:02,188 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,188 - INFO - ----New round of detections----
+2024-12-14 10:01:02,236 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,236 - INFO - ----New round of detections----
+2024-12-14 10:01:02,281 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,281 - INFO - ----New round of detections----
+2024-12-14 10:01:02,323 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,323 - INFO - ----New round of detections----
+2024-12-14 10:01:02,369 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,369 - INFO - ----New round of detections----
+2024-12-14 10:01:02,414 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,414 - INFO - ----New round of detections----
+2024-12-14 10:01:02,504 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,504 - INFO - ----New round of detections----
+2024-12-14 10:01:02,554 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,557 - INFO - ----New round of detections----
+2024-12-14 10:01:02,583 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,583 - INFO - ----New round of detections----
+2024-12-14 10:01:02,681 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,681 - INFO - ----New round of detections----
+2024-12-14 10:01:02,787 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,787 - INFO - ----New round of detections----
+2024-12-14 10:01:02,897 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:02,897 - INFO - ----New round of detections----
+2024-12-14 10:01:03,017 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,017 - INFO - ----New round of detections----
+2024-12-14 10:01:03,139 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,139 - INFO - ----New round of detections----
+2024-12-14 10:01:03,236 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,236 - INFO - ----New round of detections----
+2024-12-14 10:01:03,336 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,336 - INFO - ----New round of detections----
+2024-12-14 10:01:03,449 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,450 - INFO - ----New round of detections----
+2024-12-14 10:01:03,567 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,574 - INFO - ----New round of detections----
+2024-12-14 10:01:03,687 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,688 - INFO - ----New round of detections----
+2024-12-14 10:01:03,809 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,811 - INFO - ----New round of detections----
+2024-12-14 10:01:03,931 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:03,936 - INFO - ----New round of detections----
+2024-12-14 10:01:04,030 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,034 - INFO - ----New round of detections----
+2024-12-14 10:01:04,146 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,146 - INFO - ----New round of detections----
+2024-12-14 10:01:04,272 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,272 - INFO - ----New round of detections----
+2024-12-14 10:01:04,388 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,389 - INFO - ----New round of detections----
+2024-12-14 10:01:04,507 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,511 - INFO - ----New round of detections----
+2024-12-14 10:01:04,628 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,628 - INFO - ----New round of detections----
+2024-12-14 10:01:04,748 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,748 - INFO - ----New round of detections----
+2024-12-14 10:01:04,854 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,854 - INFO - ----New round of detections----
+2024-12-14 10:01:04,961 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:04,961 - INFO - ----New round of detections----
+2024-12-14 10:01:05,064 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,064 - INFO - ----New round of detections----
+2024-12-14 10:01:05,170 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,170 - INFO - ----New round of detections----
+2024-12-14 10:01:05,294 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,294 - INFO - ----New round of detections----
+2024-12-14 10:01:05,395 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,395 - INFO - ----New round of detections----
+2024-12-14 10:01:05,511 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,519 - INFO - ----New round of detections----
+2024-12-14 10:01:05,619 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,619 - INFO - ----New round of detections----
+2024-12-14 10:01:05,719 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,723 - INFO - ----New round of detections----
+2024-12-14 10:01:05,832 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,832 - INFO - ----New round of detections----
+2024-12-14 10:01:05,920 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:05,928 - INFO - ----New round of detections----
+2024-12-14 10:01:06,037 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,041 - INFO - ----New round of detections----
+2024-12-14 10:01:06,135 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,135 - INFO - ----New round of detections----
+2024-12-14 10:01:06,237 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,237 - INFO - ----New round of detections----
+2024-12-14 10:01:06,330 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,330 - INFO - ----New round of detections----
+2024-12-14 10:01:06,445 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,445 - INFO - ----New round of detections----
+2024-12-14 10:01:06,726 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,726 - INFO - ----New round of detections----
+2024-12-14 10:01:06,903 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:06,905 - INFO - ----New round of detections----
+2024-12-14 10:01:07,007 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,012 - INFO - ----New round of detections----
+2024-12-14 10:01:07,136 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,136 - INFO - ----New round of detections----
+2024-12-14 10:01:07,330 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,331 - INFO - ----New round of detections----
+2024-12-14 10:01:07,452 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,454 - INFO - ----New round of detections----
+2024-12-14 10:01:07,608 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,608 - INFO - ----New round of detections----
+2024-12-14 10:01:07,723 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,723 - INFO - ----New round of detections----
+2024-12-14 10:01:07,878 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:07,882 - INFO - ----New round of detections----
+2024-12-14 10:01:08,010 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,010 - INFO - ----New round of detections----
+2024-12-14 10:01:08,152 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,152 - INFO - ----New round of detections----
+2024-12-14 10:01:08,279 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,279 - INFO - ----New round of detections----
+2024-12-14 10:01:08,423 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,424 - INFO - ----New round of detections----
+2024-12-14 10:01:08,536 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,536 - INFO - ----New round of detections----
+2024-12-14 10:01:08,627 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,627 - INFO - ----New round of detections----
+2024-12-14 10:01:08,739 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,739 - INFO - ----New round of detections----
+2024-12-14 10:01:08,855 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,855 - INFO - ----New round of detections----
+2024-12-14 10:01:08,980 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:08,980 - INFO - ----New round of detections----
+2024-12-14 10:01:09,097 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,097 - INFO - ----New round of detections----
+2024-12-14 10:01:09,210 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,212 - INFO - ----New round of detections----
+2024-12-14 10:01:09,325 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,325 - INFO - ----New round of detections----
+2024-12-14 10:01:09,432 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,432 - INFO - ----New round of detections----
+2024-12-14 10:01:09,553 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,557 - INFO - ----New round of detections----
+2024-12-14 10:01:09,672 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,672 - INFO - ----New round of detections----
+2024-12-14 10:01:09,770 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,770 - INFO - ----New round of detections----
+2024-12-14 10:01:09,894 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:09,894 - INFO - ----New round of detections----
+2024-12-14 10:01:10,003 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,008 - INFO - ----New round of detections----
+2024-12-14 10:01:10,107 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,118 - INFO - ----New round of detections----
+2024-12-14 10:01:10,210 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,210 - INFO - ----New round of detections----
+2024-12-14 10:01:10,373 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,374 - INFO - ----New round of detections----
+2024-12-14 10:01:10,481 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,481 - INFO - ----New round of detections----
+2024-12-14 10:01:10,593 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,593 - INFO - ----New round of detections----
+2024-12-14 10:01:10,716 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,716 - INFO - ----New round of detections----
+2024-12-14 10:01:10,824 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,826 - INFO - ----New round of detections----
+2024-12-14 10:01:10,927 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:10,927 - INFO - ----New round of detections----
+2024-12-14 10:01:11,032 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,032 - INFO - ----New round of detections----
+2024-12-14 10:01:11,147 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,162 - INFO - ----New round of detections----
+2024-12-14 10:01:11,282 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,282 - INFO - ----New round of detections----
+2024-12-14 10:01:11,388 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,388 - INFO - ----New round of detections----
+2024-12-14 10:01:11,488 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,488 - INFO - ----New round of detections----
+2024-12-14 10:01:11,588 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,588 - INFO - ----New round of detections----
+2024-12-14 10:01:11,700 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,704 - INFO - ----New round of detections----
+2024-12-14 10:01:11,812 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,812 - INFO - ----New round of detections----
+2024-12-14 10:01:11,907 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:11,909 - INFO - ----New round of detections----
+2024-12-14 10:01:12,001 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,001 - INFO - ----New round of detections----
+2024-12-14 10:01:12,088 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,088 - INFO - ----New round of detections----
+2024-12-14 10:01:12,194 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,194 - INFO - ----New round of detections----
+2024-12-14 10:01:12,324 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,324 - INFO - ----New round of detections----
+2024-12-14 10:01:12,454 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,457 - INFO - ----New round of detections----
+2024-12-14 10:01:12,571 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,581 - INFO - ----New round of detections----
+2024-12-14 10:01:12,685 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,685 - INFO - ----New round of detections----
+2024-12-14 10:01:12,786 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,788 - INFO - ----New round of detections----
+2024-12-14 10:01:12,888 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:12,889 - INFO - ----New round of detections----
+2024-12-14 10:01:13,014 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,015 - INFO - ----New round of detections----
+2024-12-14 10:01:13,107 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,119 - INFO - ----New round of detections----
+2024-12-14 10:01:13,222 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,222 - INFO - ----New round of detections----
+2024-12-14 10:01:13,342 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,346 - INFO - ----New round of detections----
+2024-12-14 10:01:13,448 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,448 - INFO - ----New round of detections----
+2024-12-14 10:01:13,561 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,561 - INFO - ----New round of detections----
+2024-12-14 10:01:13,674 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,674 - INFO - ----New round of detections----
+2024-12-14 10:01:13,774 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,774 - INFO - ----New round of detections----
+2024-12-14 10:01:13,892 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,892 - INFO - ----New round of detections----
+2024-12-14 10:01:13,984 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:13,984 - INFO - ----New round of detections----
+2024-12-14 10:01:14,078 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,078 - INFO - ----New round of detections----
+2024-12-14 10:01:14,187 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,188 - INFO - ----New round of detections----
+2024-12-14 10:01:14,299 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,299 - INFO - ----New round of detections----
+2024-12-14 10:01:14,395 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,395 - INFO - ----New round of detections----
+2024-12-14 10:01:14,511 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,511 - INFO - ----New round of detections----
+2024-12-14 10:01:14,662 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,662 - INFO - ----New round of detections----
+2024-12-14 10:01:14,788 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,788 - INFO - ----New round of detections----
+2024-12-14 10:01:14,879 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,880 - INFO - ----New round of detections----
+2024-12-14 10:01:14,971 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:14,971 - INFO - ----New round of detections----
+2024-12-14 10:01:15,097 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,097 - INFO - ----New round of detections----
+2024-12-14 10:01:15,197 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,197 - INFO - ----New round of detections----
+2024-12-14 10:01:15,297 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,298 - INFO - ----New round of detections----
+2024-12-14 10:01:15,404 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,404 - INFO - ----New round of detections----
+2024-12-14 10:01:15,546 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,547 - INFO - ----New round of detections----
+2024-12-14 10:01:15,646 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,646 - INFO - ----New round of detections----
+2024-12-14 10:01:15,770 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,770 - INFO - ----New round of detections----
+2024-12-14 10:01:15,886 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:15,886 - INFO - ----New round of detections----
+2024-12-14 10:01:15,996 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,001 - INFO - ----New round of detections----
+2024-12-14 10:01:16,125 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,125 - INFO - ----New round of detections----
+2024-12-14 10:01:16,265 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,265 - INFO - ----New round of detections----
+2024-12-14 10:01:16,380 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,381 - INFO - ----New round of detections----
+2024-12-14 10:01:16,513 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,514 - INFO - ----New round of detections----
+2024-12-14 10:01:16,604 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,604 - INFO - ----New round of detections----
+2024-12-14 10:01:16,745 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,745 - INFO - ----New round of detections----
+2024-12-14 10:01:16,861 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,861 - INFO - ----New round of detections----
+2024-12-14 10:01:16,956 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:16,956 - INFO - ----New round of detections----
+2024-12-14 10:01:17,082 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,085 - INFO - ----New round of detections----
+2024-12-14 10:01:17,211 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,213 - INFO - ----New round of detections----
+2024-12-14 10:01:17,345 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,345 - INFO - ----New round of detections----
+2024-12-14 10:01:17,423 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,423 - INFO - ----New round of detections----
+2024-12-14 10:01:17,511 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,511 - INFO - ----New round of detections----
+2024-12-14 10:01:17,604 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,604 - INFO - ----New round of detections----
+2024-12-14 10:01:17,756 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,756 - INFO - ----New round of detections----
+2024-12-14 10:01:17,870 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,870 - INFO - ----New round of detections----
+2024-12-14 10:01:17,987 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:17,991 - INFO - ----New round of detections----
+2024-12-14 10:01:18,129 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,129 - INFO - ----New round of detections----
+2024-12-14 10:01:18,229 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,230 - INFO - ----New round of detections----
+2024-12-14 10:01:18,331 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,338 - INFO - ----New round of detections----
+2024-12-14 10:01:18,454 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,455 - INFO - ----New round of detections----
+2024-12-14 10:01:18,554 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,567 - INFO - ----New round of detections----
+2024-12-14 10:01:18,659 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,665 - INFO - ----New round of detections----
+2024-12-14 10:01:18,756 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,767 - INFO - ----New round of detections----
+2024-12-14 10:01:18,872 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,876 - INFO - ----New round of detections----
+2024-12-14 10:01:18,992 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:18,992 - INFO - ----New round of detections----
+2024-12-14 10:01:19,106 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:19,106 - INFO - ----New round of detections----
+2024-12-14 10:01:19,215 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:19,215 - INFO - ----New round of detections----
+2024-12-14 10:01:19,340 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:19,344 - INFO - ----New round of detections----
+2024-12-14 10:01:19,447 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:19,448 - INFO - ----New round of detections----
+2024-12-14 10:01:19,558 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 180, in processing_loop
+    frame_right = frames[1]
+KeyError: 1
+2024-12-14 10:01:19,558 - INFO - ----New round of detections----

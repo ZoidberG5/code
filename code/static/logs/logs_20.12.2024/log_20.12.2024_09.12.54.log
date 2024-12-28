@@ -1,0 +1,11 @@
+2024-12-20 09:12:54,827 - INFO - Application started
+2024-12-20 09:13:02,520 - INFO - ----------Processing loop started----------
+2024-12-20 09:13:02,520 - INFO - ----New round of detections----
+2024-12-20 09:13:02,528 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 214, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_webcam.py", line 223, in increase_image_quality
+    raise ValueError("Input image is None. Please provide a valid image.")
+ValueError: Input image is None. Please provide a valid image.
+2024-12-20 09:13:02,530 - INFO - The video ended and now the App will be close! Bey Bey

@@ -1,0 +1,9 @@
+2024-12-02 16:01:50,345 - INFO - Application started
+2024-12-02 16:01:54,611 - INFO - ----------Processing loop started----------
+2024-12-02 16:02:10,632 - INFO - ----New round of detections----
+2024-12-02 16:02:13,297 - INFO - the objects are: [{'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 339, 'y': 740}, 'object_center_left': {'x': 522, 'y': 749}, 'right_image_aov': {'x': -20.118, 'y': 9.037}, 'left_image_aov': {'x': -14.189, 'y': 9.444}, 'orb_result': 146}]
+2024-12-02 16:02:13,297 - INFO - -----------------------------------------------------
+2024-12-02 16:02:13,297 - INFO - 
+the correlation matrixe: [[(True, 146, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 339, 'y': 740}, 'object_center_left': {'x': 522, 'y': 749}, 'right_image_aov': {'x': -20.118, 'y': 9.037}, 'left_image_aov': {'x': -14.189, 'y': 9.444}, 'orb_result': 146})]]
+2024-12-02 16:02:13,297 - INFO - The results of Max orb pairs are: [((0, 0), 146)]
+2024-12-02 16:02:13,386 - INFO - The data of objects: [{'name': 'person', 'distance': 2.2, 'angle': -17.15}]

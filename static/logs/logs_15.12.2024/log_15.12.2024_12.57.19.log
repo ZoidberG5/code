@@ -1,0 +1,9 @@
+2024-12-15 12:57:19,015 - INFO - Application started
+2024-12-15 12:57:27,166 - INFO - ----------Processing loop started----------
+2024-12-15 12:57:54,370 - INFO - ----New round of detections----
+2024-12-15 12:57:54,371 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 185, in processing_loop
+    cap_left, cap_right, camera_indices, save_path="code/static/images",
+UnboundLocalError: local variable 'cap_left' referenced before assignment
+2024-12-15 12:57:54,372 - INFO - The video ended and now the App will be close! Bey Bey

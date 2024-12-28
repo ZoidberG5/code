@@ -1,0 +1,7 @@
+2024-12-27 23:00:30,302 - INFO - Application started
+2024-12-27 23:00:37,835 - INFO - Tensor on device: cuda:0
+2024-12-27 23:00:37,837 - CRITICAL - Critical error in application
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 370, in <module>
+    print(detector.model.device) # Check if model is on GPU
+AttributeError: 'NoneType' object has no attribute 'model'

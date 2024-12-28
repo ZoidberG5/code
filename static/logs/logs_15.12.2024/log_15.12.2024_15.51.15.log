@@ -1,0 +1,9 @@
+2024-12-15 15:51:15,275 - INFO - Application started
+2024-12-15 15:51:40,647 - INFO - ----------Processing loop started----------
+2024-12-15 15:52:06,857 - INFO - ----New round of detections----
+2024-12-15 15:52:26,886 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 204, in processing_loop
+    frame_left = frames[0]
+KeyError: 0
+2024-12-15 15:52:26,887 - INFO - The video ended and now the App will be close! Bey Bey

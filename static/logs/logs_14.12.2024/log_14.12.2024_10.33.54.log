@@ -1,0 +1,255 @@
+2024-12-14 10:33:54,261 - INFO - Application started
+2024-12-14 10:34:02,480 - INFO - ----------Processing loop started----------
+2024-12-14 10:34:30,712 - INFO - ----New round of detections----
+2024-12-14 10:34:33,279 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:33,279 - INFO - ----New round of detections----
+2024-12-14 10:34:34,100 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:34,102 - INFO - ----New round of detections----
+2024-12-14 10:34:34,854 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:34,855 - INFO - ----New round of detections----
+2024-12-14 10:34:35,551 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:35,558 - INFO - ----New round of detections----
+2024-12-14 10:34:36,324 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:36,324 - INFO - ----New round of detections----
+2024-12-14 10:34:37,022 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:37,023 - INFO - ----New round of detections----
+2024-12-14 10:34:37,724 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:37,729 - INFO - ----New round of detections----
+2024-12-14 10:34:38,426 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:38,434 - INFO - ----New round of detections----
+2024-12-14 10:34:39,100 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:39,104 - INFO - ----New round of detections----
+2024-12-14 10:34:39,788 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:39,795 - INFO - ----New round of detections----
+2024-12-14 10:34:40,490 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:40,490 - INFO - ----New round of detections----
+2024-12-14 10:34:41,182 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:41,186 - INFO - ----New round of detections----
+2024-12-14 10:34:41,594 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:41,594 - INFO - ----New round of detections----
+2024-12-14 10:34:41,904 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:41,904 - INFO - ----New round of detections----
+2024-12-14 10:34:42,435 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:42,435 - INFO - ----New round of detections----
+2024-12-14 10:34:43,105 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:43,111 - INFO - ----New round of detections----
+2024-12-14 10:34:43,838 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:43,839 - INFO - ----New round of detections----
+2024-12-14 10:34:44,509 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:44,519 - INFO - ----New round of detections----
+2024-12-14 10:34:45,314 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:45,318 - INFO - ----New round of detections----
+2024-12-14 10:34:46,019 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:46,019 - INFO - ----New round of detections----
+2024-12-14 10:34:46,674 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:46,675 - INFO - ----New round of detections----
+2024-12-14 10:34:47,330 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:47,375 - INFO - ----New round of detections----
+2024-12-14 10:34:48,089 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:48,090 - INFO - ----New round of detections----
+2024-12-14 10:34:48,795 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:48,800 - INFO - ----New round of detections----
+2024-12-14 10:34:49,450 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:49,459 - INFO - ----New round of detections----
+2024-12-14 10:34:50,172 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:50,177 - INFO - ----New round of detections----
+2024-12-14 10:34:50,880 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:50,881 - INFO - ----New round of detections----
+2024-12-14 10:34:51,552 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:51,557 - INFO - ----New round of detections----
+2024-12-14 10:34:52,257 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:52,257 - INFO - ----New round of detections----
+2024-12-14 10:34:52,956 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:52,956 - INFO - ----New round of detections----
+2024-12-14 10:34:53,630 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:53,631 - INFO - ----New round of detections----
+2024-12-14 10:34:54,322 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:54,323 - INFO - ----New round of detections----
+2024-12-14 10:34:55,059 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:55,062 - INFO - ----New round of detections----
+2024-12-14 10:34:55,718 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:55,724 - INFO - ----New round of detections----
+2024-12-14 10:34:56,428 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:56,429 - INFO - ----New round of detections----
+2024-12-14 10:34:57,113 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:57,113 - INFO - ----New round of detections----
+2024-12-14 10:34:57,775 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:57,783 - INFO - ----New round of detections----
+2024-12-14 10:34:58,503 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:58,503 - INFO - ----New round of detections----
+2024-12-14 10:34:59,189 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:59,189 - INFO - ----New round of detections----
+2024-12-14 10:34:59,868 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:34:59,868 - INFO - ----New round of detections----
+2024-12-14 10:35:00,602 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:35:00,602 - INFO - ----New round of detections----
+2024-12-14 10:35:01,286 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 199, in processing_loop
+    cv2.imwrite(output_filename, frame_r)
+UnboundLocalError: local variable 'frame_r' referenced before assignment
+2024-12-14 10:35:01,287 - INFO - ----New round of detections----

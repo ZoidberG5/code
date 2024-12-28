@@ -1,0 +1,164 @@
+2024-12-15 16:33:03,808 - INFO - Application started
+2024-12-15 16:33:19,583 - INFO - ----------Processing loop started----------
+2024-12-15 16:33:32,348 - INFO - ----New round of detections----
+2024-12-15 16:33:35,828 - INFO - The data of objects: []
+2024-12-15 16:33:35,935 - INFO - ----New round of detections----
+2024-12-15 16:33:36,427 - INFO - The data of objects: []
+2024-12-15 16:33:36,539 - INFO - ----New round of detections----
+2024-12-15 16:33:36,946 - INFO - The data of objects: []
+2024-12-15 16:33:37,054 - INFO - ----New round of detections----
+2024-12-15 16:33:37,483 - INFO - The data of objects: []
+2024-12-15 16:33:37,603 - INFO - ----New round of detections----
+2024-12-15 16:33:38,081 - INFO - The data of objects: []
+2024-12-15 16:33:38,193 - INFO - ----New round of detections----
+2024-12-15 16:33:38,594 - INFO - The data of objects: []
+2024-12-15 16:33:38,710 - INFO - ----New round of detections----
+2024-12-15 16:33:39,124 - INFO - The data of objects: []
+2024-12-15 16:33:39,239 - INFO - ----New round of detections----
+2024-12-15 16:33:39,665 - INFO - The data of objects: []
+2024-12-15 16:33:39,767 - INFO - ----New round of detections----
+2024-12-15 16:33:40,150 - INFO - The data of objects: []
+2024-12-15 16:33:40,265 - INFO - ----New round of detections----
+2024-12-15 16:33:40,670 - INFO - The data of objects: []
+2024-12-15 16:33:40,781 - INFO - ----New round of detections----
+2024-12-15 16:33:41,181 - INFO - The data of objects: []
+2024-12-15 16:33:41,285 - INFO - ----New round of detections----
+2024-12-15 16:33:41,704 - INFO - The data of objects: []
+2024-12-15 16:33:41,815 - INFO - ----New round of detections----
+2024-12-15 16:33:42,284 - INFO - The data of objects: []
+2024-12-15 16:33:42,392 - INFO - ----New round of detections----
+2024-12-15 16:33:42,780 - INFO - The data of objects: []
+2024-12-15 16:33:42,887 - INFO - ----New round of detections----
+2024-12-15 16:33:43,307 - INFO - The data of objects: []
+2024-12-15 16:33:43,410 - INFO - ----New round of detections----
+2024-12-15 16:33:43,840 - INFO - The data of objects: []
+2024-12-15 16:33:43,950 - INFO - ----New round of detections----
+2024-12-15 16:33:44,345 - INFO - The data of objects: []
+2024-12-15 16:33:44,460 - INFO - ----New round of detections----
+2024-12-15 16:33:44,853 - INFO - The data of objects: []
+2024-12-15 16:33:44,956 - INFO - ----New round of detections----
+2024-12-15 16:33:45,351 - INFO - The data of objects: []
+2024-12-15 16:33:45,455 - INFO - ----New round of detections----
+2024-12-15 16:33:45,888 - INFO - The data of objects: []
+2024-12-15 16:33:45,995 - INFO - ----New round of detections----
+2024-12-15 16:33:46,403 - INFO - The data of objects: []
+2024-12-15 16:33:46,507 - INFO - ----New round of detections----
+2024-12-15 16:33:46,910 - INFO - The data of objects: []
+2024-12-15 16:33:47,014 - INFO - ----New round of detections----
+2024-12-15 16:33:47,419 - INFO - The data of objects: []
+2024-12-15 16:33:47,523 - INFO - ----New round of detections----
+2024-12-15 16:33:47,956 - INFO - The data of objects: []
+2024-12-15 16:33:48,066 - INFO - ----New round of detections----
+2024-12-15 16:33:48,475 - INFO - The data of objects: []
+2024-12-15 16:33:48,581 - INFO - ----New round of detections----
+2024-12-15 16:33:48,980 - INFO - The data of objects: []
+2024-12-15 16:33:49,093 - INFO - ----New round of detections----
+2024-12-15 16:33:49,512 - INFO - The data of objects: []
+2024-12-15 16:33:49,621 - INFO - ----New round of detections----
+2024-12-15 16:33:50,499 - INFO - -----------------------------------------------------
+2024-12-15 16:33:50,499 - INFO - 
+the correlation matrixe: [[(True, 69, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'dining table', 'object_name_left': 'couch', 'object_center_right': {'x': 1560, 'y': 825}, 'object_center_left': {'x': 695, 'y': 574}, 'right_image_aov': {'x': 19.438, 'y': 12.878}, 'left_image_aov': {'x': -8.585, 'y': 1.536}, 'orb_result': 69})]]
+2024-12-15 16:33:50,499 - INFO - The results of Max orb pairs are: []
+2024-12-15 16:33:50,554 - INFO - The data of objects: []
+2024-12-15 16:33:50,656 - INFO - ----New round of detections----
+2024-12-15 16:33:51,098 - INFO - The data of objects: []
+2024-12-15 16:33:51,211 - INFO - ----New round of detections----
+2024-12-15 16:33:51,711 - INFO - The data of objects: []
+2024-12-15 16:33:51,826 - INFO - ----New round of detections----
+2024-12-15 16:33:52,318 - INFO - The data of objects: []
+2024-12-15 16:33:52,434 - INFO - ----New round of detections----
+2024-12-15 16:33:52,892 - INFO - The data of objects: []
+2024-12-15 16:33:53,004 - INFO - ----New round of detections----
+2024-12-15 16:33:53,462 - INFO - The data of objects: []
+2024-12-15 16:33:53,574 - INFO - ----New round of detections----
+2024-12-15 16:33:54,194 - INFO - The data of objects: []
+2024-12-15 16:33:54,297 - INFO - ----New round of detections----
+2024-12-15 16:33:54,795 - INFO - The data of objects: []
+2024-12-15 16:33:54,899 - INFO - ----New round of detections----
+2024-12-15 16:33:55,352 - INFO - The data of objects: []
+2024-12-15 16:33:55,460 - INFO - ----New round of detections----
+2024-12-15 16:33:55,948 - INFO - The data of objects: []
+2024-12-15 16:33:56,051 - INFO - ----New round of detections----
+2024-12-15 16:33:56,608 - INFO - The data of objects: []
+2024-12-15 16:33:56,719 - INFO - ----New round of detections----
+2024-12-15 16:33:57,225 - INFO - The data of objects: []
+2024-12-15 16:33:57,341 - INFO - ----New round of detections----
+2024-12-15 16:33:57,872 - INFO - The data of objects: []
+2024-12-15 16:33:57,980 - INFO - ----New round of detections----
+2024-12-15 16:33:58,516 - INFO - The data of objects: []
+2024-12-15 16:33:58,618 - INFO - ----New round of detections----
+2024-12-15 16:33:59,067 - INFO - The data of objects: []
+2024-12-15 16:33:59,173 - INFO - ----New round of detections----
+2024-12-15 16:33:59,604 - INFO - The data of objects: []
+2024-12-15 16:33:59,711 - INFO - ----New round of detections----
+2024-12-15 16:34:00,197 - INFO - The data of objects: []
+2024-12-15 16:34:00,300 - INFO - ----New round of detections----
+2024-12-15 16:34:00,869 - INFO - The data of objects: []
+2024-12-15 16:34:00,975 - INFO - ----New round of detections----
+2024-12-15 16:34:01,420 - INFO - The data of objects: []
+2024-12-15 16:34:01,531 - INFO - ----New round of detections----
+2024-12-15 16:34:02,075 - INFO - The data of objects: []
+2024-12-15 16:34:02,182 - INFO - ----New round of detections----
+2024-12-15 16:34:02,680 - INFO - The data of objects: []
+2024-12-15 16:34:02,790 - INFO - ----New round of detections----
+2024-12-15 16:34:03,249 - INFO - The data of objects: []
+2024-12-15 16:34:03,351 - INFO - ----New round of detections----
+2024-12-15 16:34:03,885 - INFO - The data of objects: []
+2024-12-15 16:34:03,990 - INFO - ----New round of detections----
+2024-12-15 16:34:04,471 - INFO - The data of objects: []
+2024-12-15 16:34:04,579 - INFO - ----New round of detections----
+2024-12-15 16:34:05,096 - INFO - The data of objects: []
+2024-12-15 16:34:05,197 - INFO - ----New round of detections----
+2024-12-15 16:34:05,630 - INFO - The data of objects: []
+2024-12-15 16:34:05,741 - INFO - ----New round of detections----
+2024-12-15 16:34:06,154 - INFO - The data of objects: []
+2024-12-15 16:34:06,267 - INFO - ----New round of detections----
+2024-12-15 16:34:06,937 - INFO - -----------------------------------------------------
+2024-12-15 16:34:06,938 - INFO - 
+the correlation matrixe: [[(True, 136, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 321, 'y': 578}, 'object_center_left': {'x': 412, 'y': 572}, 'right_image_aov': {'x': -20.701, 'y': 1.717}, 'left_image_aov': {'x': -17.753, 'y': 1.446}, 'orb_result': 136})
+  (True, 149, {'object_id_r': 1, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 662}, 'object_center_left': {'x': 412, 'y': 572}, 'right_image_aov': {'x': -0.292, 'y': 5.513}, 'left_image_aov': {'x': -17.753, 'y': 1.446}, 'orb_result': 149})]
+ [(True, 120, {'object_id_r': 0, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 321, 'y': 578}, 'object_center_left': {'x': 1165, 'y': 656}, 'right_image_aov': {'x': -20.701, 'y': 1.717}, 'left_image_aov': {'x': 6.641, 'y': 5.241}, 'orb_result': 120})
+  (True, 176, {'object_id_r': 1, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 662}, 'object_center_left': {'x': 1165, 'y': 656}, 'right_image_aov': {'x': -0.292, 'y': 5.513}, 'left_image_aov': {'x': 6.641, 'y': 5.241}, 'orb_result': 176})]]
+2024-12-15 16:34:06,938 - INFO - The results of Max orb pairs are: [((1, 1), 176), ((0, 0), 136)]
+2024-12-15 16:34:07,001 - INFO - The data of objects: [{'name': 'person', 'distance': 1.75, 'angle': 3.17}, {'name': 'person', 'distance': 4.11, 'angle': -19.23}]
+2024-12-15 16:34:07,113 - INFO - ----New round of detections----
+2024-12-15 16:34:07,844 - INFO - -----------------------------------------------------
+2024-12-15 16:34:07,844 - INFO - 
+the correlation matrixe: [[(True, 135, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 324, 'y': 563}, 'object_center_left': {'x': 414, 'y': 557}, 'right_image_aov': {'x': -20.604, 'y': 1.039}, 'left_image_aov': {'x': -17.688, 'y': 0.768}, 'orb_result': 135})
+  (True, 154, {'object_id_r': 1, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 655}, 'object_center_left': {'x': 414, 'y': 557}, 'right_image_aov': {'x': -0.292, 'y': 5.196}, 'left_image_aov': {'x': -17.688, 'y': 0.768}, 'orb_result': 154})]
+ [(True, 131, {'object_id_r': 0, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 324, 'y': 563}, 'object_center_left': {'x': 1164, 'y': 655}, 'right_image_aov': {'x': -20.604, 'y': 1.039}, 'left_image_aov': {'x': 6.609, 'y': 5.196}, 'orb_result': 131})
+  (True, 172, {'object_id_r': 1, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 951, 'y': 655}, 'object_center_left': {'x': 1164, 'y': 655}, 'right_image_aov': {'x': -0.292, 'y': 5.196}, 'left_image_aov': {'x': 6.609, 'y': 5.196}, 'orb_result': 172})]
+ [(False, 4, {'object_id_r': 0, 'object_id_l': 2, 'object_name_right': 'person', 'object_name_left': 'cup', 'object_center_right': {'x': 324, 'y': 563}, 'object_center_left': {'x': 663, 'y': 599}, 'right_image_aov': {'x': -20.604, 'y': 1.039}, 'left_image_aov': {'x': -9.622, 'y': 2.666}, 'orb_result': 4})
+  (False, 4, {'object_id_r': 1, 'object_id_l': 2, 'object_name_right': 'person', 'object_name_left': 'cup', 'object_center_right': {'x': 951, 'y': 655}, 'object_center_left': {'x': 663, 'y': 599}, 'right_image_aov': {'x': -0.292, 'y': 5.196}, 'left_image_aov': {'x': -9.622, 'y': 2.666}, 'orb_result': 4})]]
+2024-12-15 16:34:07,845 - INFO - The results of Max orb pairs are: [((1, 1), 172), ((0, 0), 135)]
+2024-12-15 16:34:07,900 - INFO - The data of objects: [{'name': 'person', 'distance': 1.76, 'angle': 3.16}, {'name': 'person', 'distance': 4.16, 'angle': -19.15}]
+2024-12-15 16:34:08,009 - INFO - ----New round of detections----
+2024-12-15 16:34:08,665 - INFO - -----------------------------------------------------
+2024-12-15 16:34:08,666 - INFO - 
+the correlation matrixe: [[(True, 150, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 319, 'y': 579}, 'object_center_left': {'x': 423, 'y': 565}, 'right_image_aov': {'x': -20.766, 'y': 1.762}, 'left_image_aov': {'x': -17.397, 'y': 1.13}, 'orb_result': 150})
+  (True, 156, {'object_id_r': 1, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 985, 'y': 660}, 'object_center_left': {'x': 423, 'y': 565}, 'right_image_aov': {'x': 0.81, 'y': 5.422}, 'left_image_aov': {'x': -17.397, 'y': 1.13}, 'orb_result': 156})]
+ [(True, 150, {'object_id_r': 0, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 319, 'y': 579}, 'object_center_left': {'x': 1163, 'y': 648}, 'right_image_aov': {'x': -20.766, 'y': 1.762}, 'left_image_aov': {'x': 6.576, 'y': 4.88}, 'orb_result': 150})
+  (True, 177, {'object_id_r': 1, 'object_id_l': 1, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 985, 'y': 660}, 'object_center_left': {'x': 1163, 'y': 648}, 'right_image_aov': {'x': 0.81, 'y': 5.422}, 'left_image_aov': {'x': 6.576, 'y': 4.88}, 'orb_result': 177})]]
+2024-12-15 16:34:08,666 - INFO - The results of Max orb pairs are: [((1, 1), 177), ((0, 0), 150)]
+2024-12-15 16:34:08,730 - INFO - The data of objects: [{'name': 'person', 'distance': 2.1, 'angle': 3.69}, {'name': 'person', 'distance': 3.6, 'angle': -19.08}]
+2024-12-15 16:34:08,843 - INFO - ----New round of detections----
+2024-12-15 16:34:09,269 - INFO - The data of objects: []
+2024-12-15 16:34:09,383 - INFO - ----New round of detections----
+2024-12-15 16:34:09,877 - INFO - The data of objects: []
+2024-12-15 16:34:09,987 - INFO - ----New round of detections----
+2024-12-15 16:34:10,492 - INFO - The data of objects: []
+2024-12-15 16:34:10,608 - INFO - ----New round of detections----
+2024-12-15 16:34:11,075 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 325, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\_backend_tk.py", line 119, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-15 16:34:11,078 - INFO - The video ended and now the App will be close! Bey Bey

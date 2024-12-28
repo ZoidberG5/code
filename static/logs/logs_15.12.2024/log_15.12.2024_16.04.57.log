@@ -1,0 +1,9 @@
+2024-12-15 16:04:57,843 - INFO - Application started
+2024-12-15 16:05:08,284 - INFO - ----------Processing loop started----------
+2024-12-15 16:05:36,859 - INFO - ----New round of detections----
+2024-12-15 16:06:00,731 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 232, in processing_loop
+    if detections_r['confidence'] > CONF_THRESHOLD:
+TypeError: list indices must be integers or slices, not str
+2024-12-15 16:06:00,735 - INFO - The video ended and now the App will be close! Bey Bey

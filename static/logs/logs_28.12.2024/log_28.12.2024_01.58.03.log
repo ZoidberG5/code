@@ -1,0 +1,16 @@
+2024-12-28 01:58:03,466 - INFO - Application started
+2024-12-28 01:58:12,419 - INFO - ----------GPU details----------
+2024-12-28 01:58:12,420 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 01:58:12,420 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-28 01:58:12,420 - INFO - Allocated GPU memory: 91933184 bytes
+2024-12-28 01:58:12,421 - INFO - Cached GPU memory: 104857600 bytes
+2024-12-28 01:58:12,421 - INFO - ----------Processing loop started----------
+2024-12-28 01:58:12,421 - INFO - ----New round of detections----
+2024-12-28 01:58:12,572 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 233, in processing_loop
+    results_r, frame_r = detector.detect_and_describe(frame=frames[1], save_images=config['SAVE_IMAGES'], camera_index=camera_indices[1])
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_yolo_detector.py", line 68, in detect_and_describe
+    if results is not None and len(results.xyxy[0]) > 0:
+AttributeError: 'Tensor' object has no attribute 'xyxy'
+2024-12-28 01:58:12,574 - INFO - The video ended and now the App will be close! Bey Bey

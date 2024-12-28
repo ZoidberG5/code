@@ -1,0 +1,9 @@
+2024-12-20 09:11:07,137 - INFO - Application started
+2024-12-20 09:11:08,579 - INFO - ----------Processing loop started----------
+2024-12-20 09:11:13,258 - INFO - ----New round of detections----
+2024-12-20 09:11:13,261 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 210, in processing_loop
+    frame_left = frames[0]
+KeyError: 0
+2024-12-20 09:11:13,261 - INFO - The video ended and now the App will be close! Bey Bey

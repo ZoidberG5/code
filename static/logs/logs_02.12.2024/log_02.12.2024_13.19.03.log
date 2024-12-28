@@ -1,0 +1,219 @@
+2024-12-02 13:19:03,128 - INFO - Application started
+2024-12-02 13:19:10,262 - INFO - ----------Processing loop started----------
+2024-12-02 13:19:10,263 - INFO - ----New round of detections----
+2024-12-02 13:19:10,317 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,321 - INFO - ----New round of detections----
+2024-12-02 13:19:10,371 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,371 - INFO - ----New round of detections----
+2024-12-02 13:19:10,414 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,415 - INFO - ----New round of detections----
+2024-12-02 13:19:10,457 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,457 - INFO - ----New round of detections----
+2024-12-02 13:19:10,499 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,499 - INFO - ----New round of detections----
+2024-12-02 13:19:10,541 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,541 - INFO - ----New round of detections----
+2024-12-02 13:19:10,583 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,583 - INFO - ----New round of detections----
+2024-12-02 13:19:10,623 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,625 - INFO - ----New round of detections----
+2024-12-02 13:19:10,665 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,665 - INFO - ----New round of detections----
+2024-12-02 13:19:10,704 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,704 - INFO - ----New round of detections----
+2024-12-02 13:19:10,745 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,746 - INFO - ----New round of detections----
+2024-12-02 13:19:10,784 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,785 - INFO - ----New round of detections----
+2024-12-02 13:19:10,827 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,828 - INFO - ----New round of detections----
+2024-12-02 13:19:10,875 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,876 - INFO - ----New round of detections----
+2024-12-02 13:19:10,914 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,915 - INFO - ----New round of detections----
+2024-12-02 13:19:10,953 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,954 - INFO - ----New round of detections----
+2024-12-02 13:19:10,994 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:10,995 - INFO - ----New round of detections----
+2024-12-02 13:19:11,034 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,034 - INFO - ----New round of detections----
+2024-12-02 13:19:11,074 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,075 - INFO - ----New round of detections----
+2024-12-02 13:19:11,113 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,113 - INFO - ----New round of detections----
+2024-12-02 13:19:11,152 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,153 - INFO - ----New round of detections----
+2024-12-02 13:19:11,194 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,194 - INFO - ----New round of detections----
+2024-12-02 13:19:11,233 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,233 - INFO - ----New round of detections----
+2024-12-02 13:19:11,274 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,276 - INFO - ----New round of detections----
+2024-12-02 13:19:11,313 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,314 - INFO - ----New round of detections----
+2024-12-02 13:19:11,353 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,354 - INFO - ----New round of detections----
+2024-12-02 13:19:11,393 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,394 - INFO - ----New round of detections----
+2024-12-02 13:19:11,476 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,476 - INFO - ----New round of detections----
+2024-12-02 13:19:11,515 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,515 - INFO - ----New round of detections----
+2024-12-02 13:19:11,552 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,553 - INFO - ----New round of detections----
+2024-12-02 13:19:11,593 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,593 - INFO - ----New round of detections----
+2024-12-02 13:19:11,632 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,632 - INFO - ----New round of detections----
+2024-12-02 13:19:11,670 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,672 - INFO - ----New round of detections----
+2024-12-02 13:19:11,711 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,712 - INFO - ----New round of detections----
+2024-12-02 13:19:11,751 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,751 - INFO - ----New round of detections----
+2024-12-02 13:19:11,790 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 219, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+AttributeError: 'CameraSystem' object has no attribute 'increase_image_quality'
+2024-12-02 13:19:11,790 - INFO - ----New round of detections----

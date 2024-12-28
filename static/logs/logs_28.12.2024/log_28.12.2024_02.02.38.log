@@ -1,0 +1,8 @@
+2024-12-28 02:02:38,680 - INFO - Application started
+2024-12-28 02:02:47,865 - INFO - ----------GPU details----------
+2024-12-28 02:02:47,866 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 02:02:47,866 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-28 02:02:47,866 - INFO - Allocated GPU memory: 91933184 bytes
+2024-12-28 02:02:47,866 - INFO - Cached GPU memory: 104857600 bytes
+2024-12-28 02:02:47,866 - INFO - ----------Processing loop started----------
+2024-12-28 02:02:47,866 - INFO - ----New round of detections----

@@ -1,0 +1,14 @@
+2024-12-14 10:11:44,658 - INFO - Application started
+2024-12-14 10:12:02,668 - INFO - ----------Processing loop started----------
+2024-12-14 10:12:37,720 - INFO - ----New round of detections----
+2024-12-14 10:12:56,080 - INFO - The data of objects: []
+2024-12-14 10:12:56,199 - INFO - ----New round of detections----
+2024-12-14 10:13:00,615 - INFO - The data of objects: []
+2024-12-14 10:13:00,720 - INFO - ----New round of detections----
+2024-12-14 10:13:17,847 - INFO - the objects are: [{'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 940, 'y': 736}, 'object_center_left': {'x': 1026, 'y': 730}, 'right_image_aov': {'x': -0.648, 'y': 8.856}, 'left_image_aov': {'x': 2.138, 'y': 8.585}, 'orb_result': 169}]
+2024-12-14 10:13:17,853 - INFO - -----------------------------------------------------
+2024-12-14 10:13:17,853 - INFO - 
+the correlation matrixe: [[(True, 169, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 940, 'y': 736}, 'object_center_left': {'x': 1026, 'y': 730}, 'right_image_aov': {'x': -0.648, 'y': 8.856}, 'left_image_aov': {'x': 2.138, 'y': 8.585}, 'orb_result': 169})]]
+2024-12-14 10:13:17,853 - INFO - The results of Max orb pairs are: [((0, 0), 169)]
+2024-12-14 10:13:18,419 - INFO - The data of objects: [{'name': 'potted plant', 'distance': 4.35, 'angle': 0.74}]
+2024-12-14 10:13:18,537 - INFO - ----New round of detections----

@@ -1,0 +1,10 @@
+2024-12-02 15:56:55,643 - INFO - Application started
+2024-12-02 15:56:59,844 - INFO - ----------Processing loop started----------
+2024-12-02 15:57:15,233 - INFO - ----New round of detections----
+2024-12-02 15:57:17,793 - INFO - the objects are: [{'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 154, 'y': 687}, 'object_center_left': {'x': 261, 'y': 724}, 'right_image_aov': {'x': -26.111, 'y': 6.642}, 'left_image_aov': {'x': -22.645, 'y': 8.314}, 'orb_result': 108}, {'object_id_r': 1, 'object_id_l': 0, 'object_name_right': 'laptop', 'object_name_left': 'person', 'object_center_right': {'x': 122, 'y': 909}, 'object_center_left': {'x': 261, 'y': 724}, 'right_image_aov': {'x': -27.148, 'y': 16.673}, 'left_image_aov': {'x': -22.645, 'y': 8.314}, 'orb_result': 5}]
+2024-12-02 15:57:17,793 - INFO - -----------------------------------------------------
+2024-12-02 15:57:17,794 - INFO - 
+the correlation matrixe: [[(True, 108, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 154, 'y': 687}, 'object_center_left': {'x': 261, 'y': 724}, 'right_image_aov': {'x': -26.111, 'y': 6.642}, 'left_image_aov': {'x': -22.645, 'y': 8.314}, 'orb_result': 108})
+  (False, 5, {'object_id_r': 1, 'object_id_l': 0, 'object_name_right': 'laptop', 'object_name_left': 'person', 'object_center_right': {'x': 122, 'y': 909}, 'object_center_left': {'x': 261, 'y': 724}, 'right_image_aov': {'x': -27.148, 'y': 16.673}, 'left_image_aov': {'x': -22.645, 'y': 8.314}, 'orb_result': 5})]]
+2024-12-02 15:57:17,794 - INFO - The results of Max orb pairs are: [((0, 0), 108)]
+2024-12-02 15:57:17,909 - INFO - The data of objects: [{'name': 'person', 'distance': 3.57, 'angle': -24.38}]

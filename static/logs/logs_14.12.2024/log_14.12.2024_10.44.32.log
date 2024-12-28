@@ -1,0 +1,189 @@
+2024-12-14 10:44:32,507 - INFO - Application started
+2024-12-14 10:44:43,147 - INFO - ----------Processing loop started----------
+2024-12-14 10:45:10,635 - INFO - ----New round of detections----
+2024-12-14 10:45:13,184 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:13,184 - INFO - ----New round of detections----
+2024-12-14 10:45:13,918 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:13,920 - INFO - ----New round of detections----
+2024-12-14 10:45:14,648 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:14,648 - INFO - ----New round of detections----
+2024-12-14 10:45:15,375 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:15,375 - INFO - ----New round of detections----
+2024-12-14 10:45:16,092 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:16,092 - INFO - ----New round of detections----
+2024-12-14 10:45:16,839 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:16,839 - INFO - ----New round of detections----
+2024-12-14 10:45:17,539 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:17,539 - INFO - ----New round of detections----
+2024-12-14 10:45:18,256 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:18,257 - INFO - ----New round of detections----
+2024-12-14 10:45:18,989 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:18,997 - INFO - ----New round of detections----
+2024-12-14 10:45:19,672 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:19,680 - INFO - ----New round of detections----
+2024-12-14 10:45:20,414 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:20,414 - INFO - ----New round of detections----
+2024-12-14 10:45:21,137 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:21,137 - INFO - ----New round of detections----
+2024-12-14 10:45:21,854 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:21,854 - INFO - ----New round of detections----
+2024-12-14 10:45:22,601 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:22,648 - INFO - ----New round of detections----
+2024-12-14 10:45:23,433 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:23,433 - INFO - ----New round of detections----
+2024-12-14 10:45:24,159 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:24,159 - INFO - ----New round of detections----
+2024-12-14 10:45:24,884 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:24,884 - INFO - ----New round of detections----
+2024-12-14 10:45:25,593 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:25,594 - INFO - ----New round of detections----
+2024-12-14 10:45:26,286 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:26,286 - INFO - ----New round of detections----
+2024-12-14 10:45:26,990 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:26,991 - INFO - ----New round of detections----
+2024-12-14 10:45:27,663 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:27,674 - INFO - ----New round of detections----
+2024-12-14 10:45:28,453 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:28,455 - INFO - ----New round of detections----
+2024-12-14 10:45:29,187 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:29,189 - INFO - ----New round of detections----
+2024-12-14 10:45:29,945 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:29,945 - INFO - ----New round of detections----
+2024-12-14 10:45:30,680 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:30,683 - INFO - ----New round of detections----
+2024-12-14 10:45:31,420 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:31,422 - INFO - ----New round of detections----
+2024-12-14 10:45:32,129 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:32,136 - INFO - ----New round of detections----
+2024-12-14 10:45:32,823 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:32,826 - INFO - ----New round of detections----
+2024-12-14 10:45:33,597 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:33,604 - INFO - ----New round of detections----
+2024-12-14 10:45:34,291 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:34,295 - INFO - ----New round of detections----
+2024-12-14 10:45:34,955 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    images_dir = f"{log_dir}/images_{current_time}"
+UnboundLocalError: local variable 'current_time' referenced before assignment
+2024-12-14 10:45:34,955 - INFO - ----New round of detections----

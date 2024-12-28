@@ -1,0 +1,35 @@
+2024-12-02 22:02:08,296 - INFO - Application started
+2024-12-02 22:02:13,085 - INFO - ----------Processing loop started----------
+2024-12-02 22:02:19,374 - INFO - ----New round of detections----
+2024-12-02 22:02:20,383 - INFO - The data of objects: []
+2024-12-02 22:02:20,484 - INFO - ----New round of detections----
+2024-12-02 22:02:20,813 - INFO - The data of objects: []
+2024-12-02 22:02:20,915 - INFO - ----New round of detections----
+2024-12-02 22:02:21,303 - INFO - The data of objects: []
+2024-12-02 22:02:21,404 - INFO - ----New round of detections----
+2024-12-02 22:02:21,737 - INFO - The data of objects: []
+2024-12-02 22:02:21,838 - INFO - ----New round of detections----
+2024-12-02 22:02:22,174 - INFO - The data of objects: []
+2024-12-02 22:02:22,279 - INFO - ----New round of detections----
+2024-12-02 22:02:22,619 - INFO - The data of objects: []
+2024-12-02 22:02:22,731 - INFO - ----New round of detections----
+2024-12-02 22:02:23,189 - INFO - The data of objects: []
+2024-12-02 22:02:23,304 - INFO - ----New round of detections----
+2024-12-02 22:02:23,688 - INFO - The data of objects: []
+2024-12-02 22:02:23,799 - INFO - ----New round of detections----
+2024-12-02 22:02:24,194 - INFO - The data of objects: []
+2024-12-02 22:02:24,307 - INFO - ----New round of detections----
+2024-12-02 22:02:24,669 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 267, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\_backend_tk.py", line 119, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-02 22:02:24,672 - INFO - ----New round of detections----

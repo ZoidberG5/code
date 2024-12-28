@@ -1,0 +1,27 @@
+2024-12-14 14:25:41,413 - INFO - Application started
+2024-12-14 14:25:44,548 - INFO - ----------Processing loop started----------
+2024-12-14 14:25:44,548 - INFO - ----New round of detections----
+2024-12-14 14:25:45,037 - INFO - The data of objects: []
+2024-12-14 14:25:45,145 - INFO - ----New round of detections----
+2024-12-14 14:25:45,562 - INFO - The data of objects: []
+2024-12-14 14:25:45,676 - INFO - ----New round of detections----
+2024-12-14 14:25:46,097 - INFO - The data of objects: []
+2024-12-14 14:25:46,211 - INFO - ----New round of detections----
+2024-12-14 14:25:46,617 - INFO - The data of objects: []
+2024-12-14 14:25:46,734 - INFO - ----New round of detections----
+2024-12-14 14:25:47,132 - INFO - The data of objects: []
+2024-12-14 14:25:47,244 - INFO - ----New round of detections----
+2024-12-14 14:25:47,661 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 289, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\_backend_tk.py", line 119, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-14 14:25:47,661 - INFO - ----New round of detections----

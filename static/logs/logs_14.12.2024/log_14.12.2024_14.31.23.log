@@ -1,0 +1,267 @@
+2024-12-14 14:31:23,355 - INFO - Application started
+2024-12-14 14:31:26,877 - INFO - ----------Processing loop started----------
+2024-12-14 14:31:26,877 - INFO - ----New round of detections----
+2024-12-14 14:31:26,969 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:26,971 - INFO - ----New round of detections----
+2024-12-14 14:31:27,042 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,043 - INFO - ----New round of detections----
+2024-12-14 14:31:27,111 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,112 - INFO - ----New round of detections----
+2024-12-14 14:31:27,180 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,180 - INFO - ----New round of detections----
+2024-12-14 14:31:27,246 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,246 - INFO - ----New round of detections----
+2024-12-14 14:31:27,313 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,313 - INFO - ----New round of detections----
+2024-12-14 14:31:27,380 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,380 - INFO - ----New round of detections----
+2024-12-14 14:31:27,463 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,463 - INFO - ----New round of detections----
+2024-12-14 14:31:27,530 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,530 - INFO - ----New round of detections----
+2024-12-14 14:31:27,600 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,600 - INFO - ----New round of detections----
+2024-12-14 14:31:27,663 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,663 - INFO - ----New round of detections----
+2024-12-14 14:31:27,733 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,733 - INFO - ----New round of detections----
+2024-12-14 14:31:27,797 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,797 - INFO - ----New round of detections----
+2024-12-14 14:31:27,878 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,879 - INFO - ----New round of detections----
+2024-12-14 14:31:27,994 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:27,995 - INFO - ----New round of detections----
+2024-12-14 14:31:28,061 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,061 - INFO - ----New round of detections----
+2024-12-14 14:31:28,130 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,130 - INFO - ----New round of detections----
+2024-12-14 14:31:28,197 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,197 - INFO - ----New round of detections----
+2024-12-14 14:31:28,263 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,263 - INFO - ----New round of detections----
+2024-12-14 14:31:28,336 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,337 - INFO - ----New round of detections----
+2024-12-14 14:31:28,397 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,397 - INFO - ----New round of detections----
+2024-12-14 14:31:28,464 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,478 - INFO - ----New round of detections----
+2024-12-14 14:31:28,547 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,547 - INFO - ----New round of detections----
+2024-12-14 14:31:28,614 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,614 - INFO - ----New round of detections----
+2024-12-14 14:31:28,680 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,680 - INFO - ----New round of detections----
+2024-12-14 14:31:28,746 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,746 - INFO - ----New round of detections----
+2024-12-14 14:31:28,813 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,813 - INFO - ----New round of detections----
+2024-12-14 14:31:28,879 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,879 - INFO - ----New round of detections----
+2024-12-14 14:31:28,946 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:28,946 - INFO - ----New round of detections----
+2024-12-14 14:31:29,012 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:29,012 - INFO - ----New round of detections----
+2024-12-14 14:31:29,079 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:29,079 - INFO - ----New round of detections----
+2024-12-14 14:31:29,146 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:29,146 - INFO - ----New round of detections----
+2024-12-14 14:31:29,245 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 198, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-14 14:31:29,245 - INFO - ----New round of detections----

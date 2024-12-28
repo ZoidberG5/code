@@ -1,0 +1,6 @@
+2024-12-27 22:53:12,139 - INFO - Application started
+2024-12-27 22:53:21,642 - CRITICAL - Critical error in application
+Traceback (most recent call last):
+  File "C:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 362, in <module>
+    ).to(device)  # Move YOLO model to GPU
+AttributeError: 'YOLOv5Detector' object has no attribute 'to'

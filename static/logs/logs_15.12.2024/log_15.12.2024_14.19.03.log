@@ -1,0 +1,11 @@
+2024-12-15 14:19:03,063 - INFO - Application started
+2024-12-15 14:19:10,422 - INFO - ----------Processing loop started----------
+2024-12-15 14:19:10,603 - INFO - ----New round of detections----
+2024-12-15 14:19:10,620 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 208, in processing_loop
+    frames = {0: usb_camera.increase_image_quality(frame_left), 1: usb_camera.increase_image_quality(frame_right)}
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_webcam.py", line 223, in increase_image_quality
+    raise ValueError("Input image is None. Please provide a valid image.")
+ValueError: Input image is None. Please provide a valid image.
+2024-12-15 14:19:10,623 - INFO - The video ended and now the App will be close! Bey Bey

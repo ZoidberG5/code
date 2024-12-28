@@ -1,0 +1,51 @@
+2024-12-14 14:39:32,981 - INFO - Application started
+2024-12-14 14:39:35,945 - INFO - ----------Processing loop started----------
+2024-12-14 14:39:35,945 - INFO - ----New round of detections----
+2024-12-14 14:39:36,420 - INFO - The data of objects: []
+2024-12-14 14:39:36,528 - INFO - ----New round of detections----
+2024-12-14 14:39:37,002 - INFO - The data of objects: []
+2024-12-14 14:39:37,127 - INFO - ----New round of detections----
+2024-12-14 14:39:37,538 - INFO - The data of objects: []
+2024-12-14 14:39:37,645 - INFO - ----New round of detections----
+2024-12-14 14:39:38,065 - INFO - The data of objects: []
+2024-12-14 14:39:38,178 - INFO - ----New round of detections----
+2024-12-14 14:39:38,615 - INFO - The data of objects: []
+2024-12-14 14:39:38,727 - INFO - ----New round of detections----
+2024-12-14 14:39:39,221 - INFO - The data of objects: []
+2024-12-14 14:39:39,325 - INFO - ----New round of detections----
+2024-12-14 14:39:39,846 - INFO - The data of objects: []
+2024-12-14 14:39:39,961 - INFO - ----New round of detections----
+2024-12-14 14:39:40,405 - INFO - The data of objects: []
+2024-12-14 14:39:40,511 - INFO - ----New round of detections----
+2024-12-14 14:39:40,932 - INFO - The data of objects: []
+2024-12-14 14:39:41,037 - INFO - ----New round of detections----
+2024-12-14 14:39:41,586 - INFO - The data of objects: []
+2024-12-14 14:39:41,696 - INFO - ----New round of detections----
+2024-12-14 14:39:42,137 - INFO - The data of objects: []
+2024-12-14 14:39:42,247 - INFO - ----New round of detections----
+2024-12-14 14:39:42,686 - INFO - The data of objects: []
+2024-12-14 14:39:42,791 - INFO - ----New round of detections----
+2024-12-14 14:39:43,197 - INFO - The data of objects: []
+2024-12-14 14:39:43,311 - INFO - ----New round of detections----
+2024-12-14 14:39:43,720 - INFO - The data of objects: []
+2024-12-14 14:39:43,845 - INFO - ----New round of detections----
+2024-12-14 14:39:44,280 - INFO - The data of objects: []
+2024-12-14 14:39:44,383 - INFO - ----New round of detections----
+2024-12-14 14:39:44,802 - INFO - The data of objects: []
+2024-12-14 14:39:44,912 - INFO - ----New round of detections----
+2024-12-14 14:39:45,303 - INFO - The data of objects: []
+2024-12-14 14:39:45,411 - INFO - ----New round of detections----
+2024-12-14 14:39:45,819 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 289, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\_backend_tk.py", line 119, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-14 14:39:45,819 - INFO - ----New round of detections----

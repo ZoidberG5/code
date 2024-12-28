@@ -1,0 +1,16 @@
+2024-12-28 02:03:02,846 - INFO - Application started
+2024-12-28 02:03:11,990 - INFO - ----------GPU details----------
+2024-12-28 02:03:11,991 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 02:03:11,991 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-28 02:03:11,991 - INFO - Allocated GPU memory: 91933184 bytes
+2024-12-28 02:03:11,991 - INFO - Cached GPU memory: 104857600 bytes
+2024-12-28 02:03:11,991 - INFO - ----------Processing loop started----------
+2024-12-28 02:03:11,991 - INFO - ----New round of detections----
+2024-12-28 02:03:19,318 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 234, in processing_loop
+    detections_r = detector.process_detections(results_r, frame_r, image_resolution[0], image_resolution[1], camera_fov[0], camera_fov[1])
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_yolo_detector.py", line 125, in process_detections
+    df = results.pandas().xyxy[0]  # Bounding boxes with labels and confidence scores
+AttributeError: 'numpy.ndarray' object has no attribute 'pandas'
+2024-12-28 02:03:19,320 - INFO - The video ended and now the App will be close! Bey Bey

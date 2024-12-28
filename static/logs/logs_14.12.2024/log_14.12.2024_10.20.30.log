@@ -1,0 +1,29 @@
+2024-12-14 10:20:30,028 - INFO - Application started
+2024-12-14 10:20:37,438 - INFO - ----------Processing loop started----------
+2024-12-14 10:21:03,774 - INFO - ----New round of detections----
+2024-12-14 10:21:07,141 - INFO - the objects are: [{'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 837, 'y': 733}, 'object_center_left': {'x': 914, 'y': 724}, 'right_image_aov': {'x': -3.985, 'y': 8.721}, 'left_image_aov': {'x': -1.49, 'y': 8.314}, 'orb_result': 162}]
+2024-12-14 10:21:07,141 - INFO - -----------------------------------------------------
+2024-12-14 10:21:07,196 - INFO - 
+the correlation matrixe: [[(True, 162, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 837, 'y': 733}, 'object_center_left': {'x': 914, 'y': 724}, 'right_image_aov': {'x': -3.985, 'y': 8.721}, 'left_image_aov': {'x': -1.49, 'y': 8.314}, 'orb_result': 162})]]
+2024-12-14 10:21:07,196 - INFO - The results of Max orb pairs are: [((0, 0), 162)]
+2024-12-14 10:21:07,386 - INFO - The data of objects: [{'name': 'potted plant', 'distance': 4.86, 'angle': -2.74}]
+2024-12-14 10:21:07,496 - INFO - ----New round of detections----
+2024-12-14 10:21:08,626 - INFO - the objects are: [{'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 842, 'y': 733}, 'object_center_left': {'x': 916, 'y': 723}, 'right_image_aov': {'x': -3.823, 'y': 8.721}, 'left_image_aov': {'x': -1.425, 'y': 8.269}, 'orb_result': 189}]
+2024-12-14 10:21:08,626 - INFO - -----------------------------------------------------
+2024-12-14 10:21:08,627 - INFO - 
+the correlation matrixe: [[(True, 189, {'object_id_r': 0, 'object_id_l': 0, 'object_name_right': 'potted plant', 'object_name_left': 'potted plant', 'object_center_right': {'x': 842, 'y': 733}, 'object_center_left': {'x': 916, 'y': 723}, 'right_image_aov': {'x': -3.823, 'y': 8.721}, 'left_image_aov': {'x': -1.425, 'y': 8.269}, 'orb_result': 189})]]
+2024-12-14 10:21:08,627 - INFO - The results of Max orb pairs are: [((0, 0), 189)]
+2024-12-14 10:21:08,778 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 268, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\matplotlib\backends\_backend_tk.py", line 119, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-14 10:21:08,786 - INFO - ----New round of detections----

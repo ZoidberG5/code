@@ -1,0 +1,33 @@
+2024-12-15 16:16:52,014 - INFO - Application started
+2024-12-15 16:16:57,956 - INFO - ----------Processing loop started----------
+2024-12-15 16:17:11,182 - INFO - ----New round of detections----
+2024-12-15 16:17:14,671 - INFO - The data of objects: []
+2024-12-15 16:17:14,785 - INFO - ----New round of detections----
+2024-12-15 16:17:15,239 - INFO - The data of objects: []
+2024-12-15 16:17:15,355 - INFO - ----New round of detections----
+2024-12-15 16:17:15,779 - INFO - The data of objects: []
+2024-12-15 16:17:15,890 - INFO - ----New round of detections----
+2024-12-15 16:17:16,355 - INFO - The data of objects: []
+2024-12-15 16:17:16,472 - INFO - ----New round of detections----
+2024-12-15 16:17:16,864 - INFO - The data of objects: []
+2024-12-15 16:17:16,980 - INFO - ----New round of detections----
+2024-12-15 16:17:17,395 - INFO - The data of objects: []
+2024-12-15 16:17:17,500 - INFO - ----New round of detections----
+2024-12-15 16:17:17,886 - INFO - The data of objects: []
+2024-12-15 16:17:17,992 - INFO - ----New round of detections----
+2024-12-15 16:17:18,391 - INFO - The data of objects: []
+2024-12-15 16:17:18,498 - INFO - ----New round of detections----
+2024-12-15 16:17:18,881 - INFO - The data of objects: []
+2024-12-15 16:17:18,988 - INFO - ----New round of detections----
+2024-12-15 16:17:19,372 - INFO - The data of objects: []
+2024-12-15 16:17:19,475 - INFO - ----New round of detections----
+2024-12-15 16:17:19,857 - INFO - The data of objects: []
+2024-12-15 16:17:19,964 - INFO - ----New round of detections----
+2024-12-15 16:17:20,355 - INFO - The data of objects: []
+2024-12-15 16:17:20,466 - INFO - ----New round of detections----
+2024-12-15 16:17:20,915 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\User\OneDrive - Afeka College Of Engineering\שולחן העבודה\final Project - Eye sight\code\main_with_gui.py", line 234, in processing_loop
+    for conf_arr_r, conf_arr_l in detections_r, detections_l:
+ValueError: too many values to unpack (expected 2)
+2024-12-15 16:17:20,916 - INFO - The video ended and now the App will be close! Bey Bey

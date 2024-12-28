@@ -1,0 +1,11 @@
+2024-12-20 09:14:09,073 - INFO - Application started
+2024-12-20 09:14:09,738 - INFO - ----------Processing loop started----------
+2024-12-20 09:14:09,738 - INFO - ----New round of detections----
+2024-12-20 09:14:09,794 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 225, in processing_loop
+    results_l, frame_l = detector.detect_and_describe(frame=frame, save_images=SAVE_IMAGES, camera_index=camera_index)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_yolo_detector.py", line 49, in detect_and_describe
+    results = self.model(frame, size=self.img_size)
+AttributeError: 'YOLOv5Detector' object has no attribute 'model'
+2024-12-20 09:14:09,795 - INFO - The video ended and now the App will be close! Bey Bey

@@ -1,0 +1,573 @@
+2024-12-28 02:08:47,012 - INFO - Application started
+2024-12-28 02:08:56,232 - INFO - ----------GPU details----------
+2024-12-28 02:08:56,233 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 02:08:56,233 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-28 02:08:56,233 - INFO - Allocated GPU memory: 91933184 bytes
+2024-12-28 02:08:56,233 - INFO - Cached GPU memory: 104857600 bytes
+2024-12-28 02:08:56,233 - INFO - ----------Processing loop started----------
+2024-12-28 02:08:56,233 - INFO - ----New round of detections----
+2024-12-28 02:09:16,066 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,066 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,066 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,068 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,068 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,068 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,068 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,069 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,069 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,069 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,069 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,069 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,070 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,070 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,070 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,070 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,070 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,071 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,071 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,072 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,072 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,072 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,072 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,073 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,073 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,073 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,073 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,074 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,075 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,075 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,075 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,075 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,076 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,076 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,076 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,076 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,077 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,077 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,077 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,077 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,078 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,078 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,078 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,078 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,079 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,079 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,079 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,080 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,080 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,080 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,080 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,081 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,081 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,082 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,082 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,082 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,083 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,083 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,083 - ERROR - Error during ORB comparison
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 286, in processing_loop
+    is_similar, orb_result = compare_orb(cropped_img_r_resized, cropped_img_l_resized)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 33, in compare_orb
+    kp1, des1 = orb.detectAndCompute(image1, None)
+cv2.error: OpenCV(4.10.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4155: error: (-215:Assertion failed) inv_scale_x > 0 in function 'cv::resize'
+
+2024-12-28 02:09:16,306 - INFO - -----------------------------------------------------
+2024-12-28 02:09:16,307 - INFO - 
+the correlation matrixe: [[(False, 0, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 89.72, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 0, 'confidence_r': 96.43, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 0, 'confidence_r': 68.2, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 0, 'confidence_r': 99.9, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 0, 'confidence_r': 99.99, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 0, 'confidence_r': 98.79, 'confidence_l': 87.37, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 62, 'y': 62}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -29.091, 'y': -21.535}, 'orb_result': 0})]
+ [(False, 0, {'object_id_r': 0, 'object_id_l': 1, 'confidence_r': 89.72, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 1, 'confidence_r': 96.43, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 1, 'confidence_r': 68.2, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 1, 'confidence_r': 99.9, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 1, 'confidence_r': 99.99, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 1, 'confidence_r': 98.79, 'confidence_l': 93.85, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 68, 'y': 62}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -28.897, 'y': -21.535}, 'orb_result': 0})]
+ [(False, 0, {'object_id_r': 0, 'object_id_l': 2, 'confidence_r': 89.72, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 2, 'confidence_r': 96.43, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 2, 'confidence_r': 68.2, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 2, 'confidence_r': 99.9, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 2, 'confidence_r': 99.99, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 2, 'confidence_r': 98.79, 'confidence_l': 92.02, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 76, 'y': 60}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -28.638, 'y': -21.627}, 'orb_result': 0})]
+ ...
+ [(False, 0, {'object_id_r': 0, 'object_id_l': 61, 'confidence_r': 89.72, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 61, 'confidence_r': 96.43, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 61, 'confidence_r': 68.2, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 61, 'confidence_r': 99.9, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 61, 'confidence_r': 99.99, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 61, 'confidence_r': 98.79, 'confidence_l': 99.99, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 142, 'y': 190}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -26.5, 'y': -15.62}, 'orb_result': 0})]
+ [(False, 0, {'object_id_r': 0, 'object_id_l': 62, 'confidence_r': 89.72, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 62, 'confidence_r': 96.43, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 62, 'confidence_r': 68.2, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 62, 'confidence_r': 99.9, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 62, 'confidence_r': 99.99, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 62, 'confidence_r': 98.79, 'confidence_l': 67.16, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 141, 'y': 317}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -26.532, 'y': -9.751}, 'orb_result': 0})]
+ [(False, 0, {'object_id_r': 0, 'object_id_l': 63, 'confidence_r': 89.72, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 40, 'y': 42}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -29.804, 'y': -22.459}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 1, 'object_id_l': 63, 'confidence_r': 96.43, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 45, 'y': 68}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -29.642, 'y': -21.258}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 2, 'object_id_l': 63, 'confidence_r': 68.2, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 42, 'y': 61}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -29.739, 'y': -21.581}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})
+  ...
+  (False, 0, {'object_id_r': 47, 'object_id_l': 63, 'confidence_r': 99.9, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 186, 'y': 136}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -25.074, 'y': -18.115}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 48, 'object_id_l': 63, 'confidence_r': 99.99, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 105, 'y': 153}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -27.698, 'y': -17.33}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})
+  (False, 0, {'object_id_r': 49, 'object_id_l': 63, 'confidence_r': 98.79, 'confidence_l': 60.22, 'object_name_right': 'Class 0', 'object_name_left': 'Class 0', 'object_center_right': {'x': 178, 'y': 176}, 'object_center_left': {'x': 167, 'y': 271}, 'right_image_aov': {'x': -25.334, 'y': -16.267}, 'left_image_aov': {'x': -25.69, 'y': -11.877}, 'orb_result': 0})]]
+2024-12-28 02:09:16,307 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 315, in processing_loop
+    result = find_max_in_orb_shai(correlation_results_matrix)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 92, in find_max_in_orb_shai
+    is_2_similar, _, details = matrix[r][l]
+TypeError: cannot unpack non-iterable int object
+2024-12-28 02:09:16,307 - INFO - The video ended and now the App will be close! Bey Bey

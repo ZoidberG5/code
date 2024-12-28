@@ -1,0 +1,48 @@
+2024-12-27 23:54:18,194 - INFO - Application started
+2024-12-27 23:54:28,586 - INFO - ----------GPU details----------
+2024-12-27 23:54:28,586 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-27 23:54:28,586 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-27 23:54:28,586 - INFO - ----------Processing loop started----------
+2024-12-27 23:54:36,858 - INFO - ----New round of detections----
+2024-12-27 23:54:39,134 - INFO - The data of objects: []
+2024-12-27 23:54:39,134 - INFO - ----New round of detections----
+2024-12-27 23:54:39,589 - INFO - The data of objects: []
+2024-12-27 23:54:39,591 - INFO - ----New round of detections----
+2024-12-27 23:54:39,984 - INFO - The data of objects: []
+2024-12-27 23:54:39,985 - INFO - ----New round of detections----
+2024-12-27 23:54:40,498 - INFO - The data of objects: []
+2024-12-27 23:54:40,498 - INFO - ----New round of detections----
+2024-12-27 23:54:40,962 - INFO - The data of objects: []
+2024-12-27 23:54:40,962 - INFO - ----New round of detections----
+2024-12-27 23:54:41,428 - INFO - The data of objects: []
+2024-12-27 23:54:41,429 - INFO - ----New round of detections----
+2024-12-27 23:54:41,848 - INFO - The data of objects: []
+2024-12-27 23:54:41,848 - INFO - ----New round of detections----
+2024-12-27 23:54:42,251 - INFO - The data of objects: []
+2024-12-27 23:54:42,251 - INFO - ----New round of detections----
+2024-12-27 23:54:42,718 - INFO - The data of objects: []
+2024-12-27 23:54:42,718 - INFO - ----New round of detections----
+2024-12-27 23:54:43,140 - INFO - The data of objects: []
+2024-12-27 23:54:43,140 - INFO - ----New round of detections----
+2024-12-27 23:54:43,558 - INFO - The data of objects: []
+2024-12-27 23:54:43,558 - INFO - ----New round of detections----
+2024-12-27 23:54:43,970 - INFO - The data of objects: []
+2024-12-27 23:54:43,970 - INFO - ----New round of detections----
+2024-12-27 23:54:44,416 - INFO - The data of objects: []
+2024-12-27 23:54:44,416 - INFO - ----New round of detections----
+2024-12-27 23:54:44,883 - INFO - The data of objects: []
+2024-12-27 23:54:44,883 - INFO - ----New round of detections----
+2024-12-27 23:54:45,339 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 332, in processing_loop
+    radar_display.update_display(radar_objects)
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_GUI_radar.py", line 58, in update_display
+    self.canvas.draw()
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\backend_tkagg.py", line 11, in draw
+    self.blit()
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\backend_tkagg.py", line 14, in blit
+    _backend_tk.blit(self._tkphoto, self.renderer.buffer_rgba(),
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\matplotlib\backends\_backend_tk.py", line 116, in blit
+    photoimage.tk.call(_blit_tcl_name, argsid)
+_tkinter.TclError
+2024-12-27 23:54:45,341 - INFO - The video ended and now the App will be close! Bey Bey

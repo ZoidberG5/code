@@ -1,0 +1,30 @@
+2024-12-28 01:49:57,787 - INFO - Application started
+2024-12-28 01:50:07,905 - INFO - ----------GPU details----------
+2024-12-28 01:50:07,906 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 01:50:07,906 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2024-12-28 01:50:07,906 - INFO - Allocated GPU memory: 91933184 bytes
+2024-12-28 01:50:07,906 - INFO - Cached GPU memory: 104857600 bytes
+2024-12-28 01:50:07,906 - INFO - ----------Processing loop started----------
+2024-12-28 01:50:07,906 - INFO - ----New round of detections----
+2024-12-28 01:50:08,003 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 233, in processing_loop
+    results_r, frame_r = detector.detect_and_describe(frame=frames[1], save_images=config['SAVE_IMAGES'], camera_index=camera_indices[1])
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\OOP_yolo_detector.py", line 55, in detect_and_describe
+    results = self.model(frame_tensor, size=self.img_size)
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\shai.y/.cache\torch\hub\ultralytics_yolov5_master\models\common.py", line 866, in forward
+    return self.model(ims.to(p.device).type_as(p), augment=augment)  # inference
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\shai.y/.cache\torch\hub\ultralytics_yolov5_master\models\common.py", line 681, in forward
+    b, ch, h, w = im.shape  # batch, channel, height, width
+ValueError: not enough values to unpack (expected 4, got 3)
+2024-12-28 01:50:08,005 - INFO - The video ended and now the App will be close! Bey Bey
