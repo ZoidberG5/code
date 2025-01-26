@@ -2,6 +2,7 @@ import cv2
 import datetime
 import os
 import time
+from OOP_webcam import CameraSystem
 
 def init_cameras(camera_indices, width=640, height=480):
     """
@@ -75,25 +76,33 @@ def record_video(connected_cameras, save_path, width=640, height=480, FPS=15, du
 
 if __name__ == "__main__":
     # Initialize cameras
-    camera_indices = (2, 1)  # [left index, right index]
-    connected_cameras = init_cameras(camera_indices, width=1920, height=1080)
-    cap_left = connected_cameras["left"]
-    cap_right = connected_cameras["right"]
-    # Disable auto-exposure
-    # cap_left.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)
-    # cap_right.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)
+    camera_indices = (2, 0)  # [left index, right index]
+    image_resolution = (1920, 1080)
+    #connected_cameras = init_cameras(camera_indices, width=1920, height=1080)
 
-    # cap_left.set(cv2.CAP_PROP_EXPOSURE, -3.0)
-    # cap_right.set(cv2.CAP_PROP_EXPOSURE, -3.0)
-    
+    usb_camera = CameraSystem(cameras_distance=0.235, max_cameras=10)
+    cap_left, cap_right = usb_camera.init_two_cameras(camera_indices, width=image_resolution[0], height=image_resolution[1])
+
+    # Set exposure value
+    cap_left.set(cv2.CAP_PROP_ZOOM, 0)
+    cap_right.set(cv2.CAP_PROP_ZOOM, 0)
+
+
+    # Print exposure value
     print(f"The exposure value is:{cap_left.get(cv2.CAP_PROP_EXPOSURE)}")
-    
+
+    # Store connected cameras in a dictionary
+    connected_cameras = {}
+    connected_cameras['left'] = cap_left
+    connected_cameras['right'] = cap_right
+
     # Check if any camera is connected
     if not connected_cameras:
         print("Error: No cameras are connected.")
     else:
         # Record video for 10 seconds
-        record_video(connected_cameras, "code/videos", width=1920, height=1080, FPS=3, duration=10)
+        record_video(connected_cameras, "code/videos", width=1920, height=1080, FPS=5, duration=20)
 
     # Release cameras
-    release_cameras(connected_cameras)
+    #release_cameras(connected_cameras)
+    usb_camera.release_two_cameras(cap_left, cap_right)

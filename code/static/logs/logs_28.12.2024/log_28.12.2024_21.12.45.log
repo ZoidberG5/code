@@ -1,0 +1,4 @@
+2024-12-28 21:12:45,576 - INFO - Application started
+2024-12-28 21:13:08,067 - INFO - ----------GPU details----------
+2024-12-28 21:13:08,077 - INFO - PyTorch version: 2.5.1+cu124
+2024-12-28 21:13:08,077 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU

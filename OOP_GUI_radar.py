@@ -21,7 +21,7 @@ class RadarDisplay:
 
         # Initialize radar properties
         self.ax.set_theta_zero_location("N")  # Set 0° at the top (north)
-        self.ax.set_ylim(0, 10)  # Max distance (customize based on actual distance range)
+        self.ax.set_ylim(0, 30)  # Max distance (customize based on actual distance range)
         self.ax.set_thetamin(-30)  # Display from -45° to 45°
         self.ax.set_thetamax(30)
         self.ax.set_xticks(np.linspace(-np.pi / 4, np.pi / 4, 3))  # Only -45°, 0°, 45°
@@ -41,7 +41,7 @@ class RadarDisplay:
 
         # Reapply radar grid settings
         self.ax.set_theta_zero_location("N")
-        self.ax.set_ylim(0, 10)
+        self.ax.set_ylim(0, 30)
         self.ax.set_thetamin(-30)
         self.ax.set_thetamax(30)
         self.ax.set_xticks(np.linspace(-np.pi / 4, np.pi / 4, 3))

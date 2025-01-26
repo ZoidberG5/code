@@ -1,0 +1,63 @@
+2025-01-09 16:43:25,363 - INFO - Application started
+2025-01-09 16:43:36,613 - INFO - ----------GPU details----------
+2025-01-09 16:43:36,613 - INFO - PyTorch version: 2.5.1+cu124
+2025-01-09 16:43:36,613 - INFO - CUDA device: NVIDIA RTX 3500 Ada Generation Laptop GPU
+2025-01-09 16:43:36,613 - INFO - ----------Processing loop started----------
+2025-01-09 16:43:45,284 - INFO - ----New round of detections----
+2025-01-09 16:43:48,966 - INFO - -----------------------------------------------------
+2025-01-09 16:43:48,966 - INFO - 
+the correlation matrixe: [[(True, 150, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.55, 'confidence_l': 72.47, 'object_name_right': 'motorcycle', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 1480, 'y': 546}, 'object_center_left': {'x': 1550, 'y': 551}, 'right_image_aov': {'x': 16.846, 'y': 0.271}, 'left_image_aov': {'x': 19.114, 'y': 0.497}, 'orb_result': 150})]]
+2025-01-09 16:43:48,968 - INFO - The results of Max orb pairs are: [((0, 0), 150)]
+2025-01-09 16:43:49,052 - INFO - The data of objects: [{'name': 'motorcycle', 'distance': 5.34, 'angle': 17.98}]
+2025-01-09 16:43:49,054 - INFO - ----New round of detections----
+2025-01-09 16:43:49,924 - INFO - -----------------------------------------------------
+2025-01-09 16:43:49,924 - INFO - 
+the correlation matrixe: [[(True, 170, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 64.72, 'confidence_l': 60.62, 'object_name_right': 'motorcycle', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 1481, 'y': 551}, 'object_center_left': {'x': 1551, 'y': 549}, 'right_image_aov': {'x': 16.878, 'y': 0.497}, 'left_image_aov': {'x': 19.146, 'y': 0.407}, 'orb_result': 170})]]
+2025-01-09 16:43:49,924 - INFO - The results of Max orb pairs are: [((0, 0), 170)]
+2025-01-09 16:43:50,002 - INFO - The data of objects: [{'name': 'motorcycle', 'distance': 5.34, 'angle': 18.01}]
+2025-01-09 16:43:50,002 - INFO - ----New round of detections----
+2025-01-09 16:43:50,800 - INFO - -----------------------------------------------------
+2025-01-09 16:43:50,800 - INFO - 
+the correlation matrixe: [[(True, 151, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 70.96, 'confidence_l': 78.75, 'object_name_right': 'motorcycle', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 1599, 'y': 563}, 'object_center_left': {'x': 1645, 'y': 537}, 'right_image_aov': {'x': 20.701, 'y': 1.039}, 'left_image_aov': {'x': 22.191, 'y': -0.136}, 'orb_result': 151})]]
+2025-01-09 16:43:50,800 - INFO - The results of Max orb pairs are: [((0, 0), 151)]
+2025-01-09 16:43:50,878 - INFO - The data of objects: [{'name': 'motorcycle', 'distance': 8.13, 'angle': 21.45}]
+2025-01-09 16:43:50,878 - INFO - ----New round of detections----
+2025-01-09 16:43:51,709 - INFO - -----------------------------------------------------
+2025-01-09 16:43:51,709 - INFO - 
+the correlation matrixe: [[(True, 157, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 63.57, 'confidence_l': 79.68, 'object_name_right': 'motorcycle', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 1578, 'y': 553}, 'object_center_left': {'x': 1641, 'y': 539}, 'right_image_aov': {'x': 20.021, 'y': 0.587}, 'left_image_aov': {'x': 22.062, 'y': -0.045}, 'orb_result': 157})]]
+2025-01-09 16:43:51,709 - INFO - The results of Max orb pairs are: [((0, 0), 157)]
+2025-01-09 16:43:51,788 - INFO - The data of objects: [{'name': 'motorcycle', 'distance': 5.94, 'angle': 21.04}]
+2025-01-09 16:43:51,788 - INFO - ----New round of detections----
+2025-01-09 16:43:52,425 - INFO - The data of objects: []
+2025-01-09 16:43:52,425 - INFO - ----New round of detections----
+2025-01-09 16:43:53,066 - INFO - The data of objects: []
+2025-01-09 16:43:53,066 - INFO - ----New round of detections----
+2025-01-09 16:43:53,699 - INFO - The data of objects: []
+2025-01-09 16:43:53,699 - INFO - ----New round of detections----
+2025-01-09 16:43:54,358 - INFO - The data of objects: []
+2025-01-09 16:43:54,358 - INFO - ----New round of detections----
+2025-01-09 16:43:55,093 - INFO - -----------------------------------------------------
+2025-01-09 16:43:55,093 - INFO - 
+the correlation matrixe: [[(True, 77, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 69.24, 'confidence_l': 70.49, 'object_name_right': 'person', 'object_name_left': 'person', 'object_center_right': {'x': 881, 'y': 443}, 'object_center_left': {'x': 875, 'y': 411}, 'right_image_aov': {'x': -2.559, 'y': -4.383}, 'left_image_aov': {'x': -2.754, 'y': -5.829}, 'orb_result': 77})]
+ [(True, 87, {'object_id_r': 0, 'object_id_l': 1, 'confidence_r': 69.24, 'confidence_l': 67.97, 'object_name_right': 'person', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 881, 'y': 443}, 'object_center_left': {'x': 1619, 'y': 550}, 'right_image_aov': {'x': -2.559, 'y': -4.383}, 'left_image_aov': {'x': 21.349, 'y': 0.452}, 'orb_result': 87})]]
+2025-01-09 16:43:55,093 - INFO - The results of Max orb pairs are: [((0, 0), 77)]
+2025-01-09 16:43:55,170 - INFO - The data of objects: [{'name': 'person', 'distance': 62.33, 'angle': -2.66}]
+2025-01-09 16:43:55,170 - INFO - ----New round of detections----
+2025-01-09 16:43:55,822 - INFO - The data of objects: []
+2025-01-09 16:43:55,827 - INFO - ----New round of detections----
+2025-01-09 16:43:56,489 - INFO - The data of objects: []
+2025-01-09 16:43:56,489 - INFO - ----New round of detections----
+2025-01-09 16:43:57,172 - INFO - The data of objects: []
+2025-01-09 16:43:57,172 - INFO - ----New round of detections----
+2025-01-09 16:43:57,808 - INFO - The data of objects: []
+2025-01-09 16:43:57,816 - INFO - ----New round of detections----
+2025-01-09 16:43:58,476 - INFO - The data of objects: []
+2025-01-09 16:43:58,476 - INFO - ----New round of detections----
+2025-01-09 16:43:59,263 - INFO - -----------------------------------------------------
+2025-01-09 16:43:59,265 - INFO - 
+the correlation matrixe: [[(True, 148, {'object_id_r': 0, 'object_id_l': 0, 'confidence_r': 60.61, 'confidence_l': 75.92, 'object_name_right': 'motorcycle', 'object_name_left': 'motorcycle', 'object_center_right': {'x': 1556, 'y': 560}, 'object_center_left': {'x': 1609, 'y': 557}, 'right_image_aov': {'x': 19.308, 'y': 0.904}, 'left_image_aov': {'x': 21.025, 'y': 0.768}, 'orb_result': 148})]]
+2025-01-09 16:43:59,265 - INFO - The results of Max orb pairs are: [((0, 0), 148)]
+2025-01-09 16:43:59,338 - INFO - The data of objects: [{'name': 'motorcycle', 'distance': 7.06, 'angle': 20.17}]
+2025-01-09 16:43:59,338 - INFO - ----New round of detections----
+2025-01-09 16:44:00,023 - INFO - The data of objects: []
+2025-01-09 16:44:00,023 - INFO - ----New round of detections----

@@ -19,9 +19,8 @@ class YOLOv5Detector:
             else:
                 print("Loading default YOLOv5 model.")
                 self.model = torch.hub.load('ultralytics/yolov5', weights_path)
-
-            self.model.to(self.device)  # Move the model to the GPU
-            print(f"Model loaded successfully on device: {self.device}.")
+            self.model.to(self.device)  # Move the model to the GPU if available
+            print("Model loaded successfully.")
         except Exception as e:
             print(f"Error loading YOLO model: {e}")
             

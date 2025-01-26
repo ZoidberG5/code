@@ -1,0 +1,7 @@
+2024-12-28 21:17:36,324 - INFO - Application started
+2024-12-28 21:17:47,575 - INFO - ----------Processing loop started----------
+2024-12-28 21:17:47,580 - CRITICAL - Critical error in processing loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 173, in processing_loop
+    cap_left, cap_right = usb_camera.init_two_cameras(width=image_resolution[0], height=image_resolution[1])
+TypeError: CameraSystem.init_two_cameras() missing 1 required positional argument: 'camera_indices'

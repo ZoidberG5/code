@@ -91,7 +91,7 @@ def find_max_in_orb_shai(matrix):
         for l in range(len(matrix[r])):
             is_2_similar, _, details = matrix[r][l]
             orb_result = details['orb_result']
-            if details['object_name_right'] == details['object_name_left']:
+            if (details['object_name_right'] == details['object_name_left']) and abs(abs(details['right_image_aov']['x']) - abs(details['left_image_aov']['x']))<ANGLE_PAIR_THRESHOLD:
                 pairs.append(((r, l), orb_result))  # Append as a tuple ((r, l), orb_result)
             else:
                 continue
@@ -149,18 +149,20 @@ def find_maximum_orb_result_pairs(matrix):
 image_resolution = [1920, 1080]
 camera_fov = [62.2, 48.8]
 f = 3.04 # focal length in [mm]
-#SAVE_IMAGES = True #save the images taken during the detection
 
 # Configuration settings
 config = {
     'RUN_ONE_TIME_ONLY': False, # run the code one time only
     'TAKE_NEW_IMAGES': False,   # run the code on saved images or use the camera to take live images
-    'USE_SAVED_VIDEO': False,    # run the code on saved video or use the camera to take live images
-    'SAVE_IMAGES': False,        # save the images taken during the detection
-    'USING_Niconielsen32_ALGORITHEM' : True #Calculate the distance according to Nico Algorithem or our Algorithem
+    'USE_SAVED_VIDEO': True,    # run the code on saved video or use the camera to take live images
+    'SAVE_IMAGES': True,        # save the images taken during the detection
+    'USING_Niconielsen32_ALGORITHEM' : False #Calculate the distance according to Nico Algorithem or our Algorithem
 }
 
 CONF_THRESHOLD = 0.6 # Confidence threshold for object detection
+ANGLE_PAIR_THRESHOLD = 5  # Maximum difference in angle of view for a pair of objects to be considered a match
+
+monitoring_rounds_of_detections = []
 
 # YOLOv5 detector configuration
 # weights_path_chosen = 'yolov5/runs/train/exp/weights/best.pt'
@@ -186,10 +188,11 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices):
         elif config['USE_SAVED_VIDEO']:
             # Initialize video files instead of cameras
             VIDEO_DIR = "code/videos"
-            video_path_left = os.path.join(VIDEO_DIR, "20241215_141244_LEFT_video.mp4")
-            video_path_right = os.path.join(VIDEO_DIR, "20241215_141244_RIGHT_video.mp4")
+            video_path_left = os.path.join(VIDEO_DIR, "20250110_095814_LEFT_video.mp4")
+            video_path_right = os.path.join(VIDEO_DIR, "20250110_095814_RIGHT_video.mp4")
             cap_left = cv2.VideoCapture(video_path_left)
             cap_right = cv2.VideoCapture(video_path_right)
+        round_of_detection = 0
 
         while True:
             try:
@@ -312,6 +315,7 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices):
                     logging.info(f"The results of Max orb pairs are: {result}")
 
                     radar_objects = []
+                    round_of_objects = []
                     for i in range(len(result)):
                         matched_object = correlation_results_matrix[result[i][0][0], result[i][0][1]][2]
                         if config['USING_Niconielsen32_ALGORITHEM']: #in this section we calculate the distanc according to the algorithem
@@ -327,17 +331,43 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices):
                             left_aov = matched_object['left_image_aov']
                             distance_to_object = usb_camera.calculate_distance(right_aov, left_aov)
                         
-                        angle_of_view = (matched_object['right_image_aov']['x'] + matched_object['left_image_aov']['x'])/2
+                        angle_of_view_x = (matched_object['right_image_aov']['x'] + matched_object['left_image_aov']['x'])/2
+                        angle_of_view_y = (matched_object['right_image_aov']['y'] + matched_object['left_image_aov']['y'])/2
+
+                        if distance_to_object != -4.0:
+                            error_correction = (90/(camera_fov[0]/2))
+                            distance_to_object = abs(distance_to_object*np.cos(np.deg2rad(angle_of_view_x*error_correction))) # calculate the distance in the same line of the object
+                        
+                        # Append the object data to the radar_objects list
                         radar_objects.append({
                             'name': matched_object['object_name_right'],
                             'distance': round(float(distance_to_object), 2),  # Convert to float
-                            'angle': round(angle_of_view, 2)
+                            'angle': round(angle_of_view_x, 2)
                         })
+
+                        # Append the object data to the round_of_objects list
+                        round_of_objects.append({
+                            'name': matched_object['object_name_right'],
+                            'distance': round(float(distance_to_object), 2),  # Convert to float
+                            'angle_x': round(angle_of_view_x, 2),
+                            'angle_y': round(angle_of_view_y, 2)
+                        })
+
                 elif (len(detections_l) == 0) or (len(detections_r) == 0): # in case there is no detection from one of the images, reset radar_objects
                     radar_objects = []
                 # Update radar display with the new object list
                 radar_display.update_display(radar_objects)
                 logging.info(f"The data of objects: {radar_objects}")
+
+                # In this part i'll handle the the comperison between the detections now and the detections before
+                distance_error_ratio = 0.1
+                angle_x_error_ratio = 0.1
+                angle_y_error_ratio = 0.1
+
+                monitoring_rounds_of_detections.append((round_of_detection, round_of_objects))
+                round_of_detection += 1
+
+                print(monitoring_rounds_of_detections)
 
                 #time.sleep(0.1)  # Delay for the next loop iteration
             except Exception as e:
@@ -355,7 +385,7 @@ if __name__ == "__main__":
     try:
         # Initialize the camera, YOLO detector, and radar display
         usb_camera = CameraSystem(cameras_distance=0.235, max_cameras=10)
-        camera_indices = (2, 1)  # [left index, right index]
+        camera_indices = (2, 0)  # [left index, right index]
         detector = YOLOv5Detector(
             weights_path=weights_path_chosen, # original is: weights_path='yolo5s'
             img_size=320,

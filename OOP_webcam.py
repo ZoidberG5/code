@@ -49,12 +49,8 @@ class CameraSystem:
         cap_right.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75) 
 
         # Enable auto-focus try this first!!!
-        success = cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
-        cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1)   
-        if success:
-            print("Autofocus enabled.")
-        else:
-            print("Autofocus not supported or failed to enable.")
+        cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
+        cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1)
 
         return cap_right, cap_left
 
@@ -150,11 +146,19 @@ class CameraSystem:
                 inner_angle_right = (90 - abs(out_angle_r))
                 inner_angle_left = (90 - abs(out_angle_l))
             elif out_angle_l < 0 and out_angle_r < 0: #left from the left camera
-                inner_angle_right = (90 - abs(out_angle_r))
-                inner_angle_left = (90 + abs(out_angle_l))
+                if abs(out_angle_l) < abs(out_angle_r):
+                    inner_angle_right = (90 - abs(out_angle_r))
+                    inner_angle_left = (90 + abs(out_angle_l))
+                else:    
+                    inner_angle_right = (90 + abs(out_angle_r))
+                    inner_angle_left = (90 - abs(out_angle_l))
             elif out_angle_l > 0 and out_angle_r > 0: #right from the right camera
-                inner_angle_right = (90 + abs(out_angle_r))
-                inner_angle_left = (90 - abs(out_angle_l))
+                if abs(out_angle_l) < abs(out_angle_r):
+                    inner_angle_right = (90 - abs(out_angle_r))
+                    inner_angle_left = (90 + abs(out_angle_l))
+                else:    
+                    inner_angle_right = (90 + abs(out_angle_r))
+                    inner_angle_left = (90 - abs(out_angle_l))
             else:
                 return 0
             

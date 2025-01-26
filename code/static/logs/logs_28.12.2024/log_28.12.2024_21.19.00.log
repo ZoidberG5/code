@@ -1,0 +1,11 @@
+2024-12-28 21:19:02,895 - INFO - Application started
+2024-12-28 21:19:13,905 - INFO - ----------Processing loop started----------
+2024-12-28 21:19:13,905 - INFO - ----New round of detections----
+2024-12-28 21:19:22,214 - CRITICAL - Critical error in while loop
+Traceback (most recent call last):
+  File "c:\Users\shai.y\Documents\Naggles_tmp-main\code\main_with_gui.py", line 200, in processing_loop
+    frame_left = cv2.imread(left_image_path)
+  File "C:\Users\shai.y\AppData\Roaming\Python\Python310\site-packages\ultralytics\utils\patches.py", line 26, in imread
+    return cv2.imdecode(np.fromfile(filename, np.uint8), flags)
+FileNotFoundError: [Errno 2] No such file or directory: 'code\\images\\LEFT_image_1_20241202_161508.jpg'
+2024-12-28 21:19:22,216 - INFO - The video ended and now the App will be close! Bey Bey

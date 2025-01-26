@@ -1,6 +1,8 @@
 import cv2
 import time
 import datetime
+from OOP_webcam import CameraSystem
+
 
 def init_two_cameras(width=640, height=480):
     # Open the USB cameras (index depending on your setup)
@@ -85,7 +87,7 @@ def capture_images_from_two_cameras(cap_right, cap_left, n, save_path, width=640
         # focus_supported = cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
 
         # Get current time for the filenames
-        current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M")
         # Capture a frame
         ret_right, frame_right = cap_right.read()
         ret_left, frame_left = cap_left.read()
@@ -113,9 +115,14 @@ def capture_images_from_two_cameras(cap_right, cap_left, n, save_path, width=640
     # cv2.destroyAllWindows()
 
 if __name__ == "__main__":
+    camera_indices = (2, 0)  # [left index, right index]
+    image_resolution = (1920, 1080) # [width, height]
     # Usage example: capture n images
     #capture_images(5, "code\images", width=1920, height=1080, FPS = 15)
+    usb_camera = CameraSystem(cameras_distance=0.235, max_cameras=10)
 
-    cap_right, cap_left = init_two_cameras(width=1920, height=1080)
-    capture_images_from_two_cameras(cap_right, cap_left, 1, "code\images", width=1920, height=1080, FPS = 15)
+    current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    cap_left, cap_right = usb_camera.init_two_cameras(camera_indices, width=image_resolution[0], height=image_resolution[1])
+    #usb_camera.capture_images_from_cameras(cap_right, cap_left, camera_indices, "code\images", width=1920, height=1080)
+    capture_images_from_two_cameras(cap_right, cap_left, 20, "code\images", width=image_resolution[0], height=image_resolution[1], FPS = 5)
     release_two_cameras(cap_right, cap_left)
