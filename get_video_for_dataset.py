@@ -76,7 +76,7 @@ def record_video(connected_cameras, save_path, width=640, height=480, FPS=15, du
 
 if __name__ == "__main__":
     # Initialize cameras
-    camera_indices = (2, 0)  # [left index, right index]
+    camera_indices = (2, 1)  # [left index, right index]
     image_resolution = (1920, 1080)
     #connected_cameras = init_cameras(camera_indices, width=1920, height=1080)
 
@@ -84,9 +84,18 @@ if __name__ == "__main__":
     cap_left, cap_right = usb_camera.init_two_cameras(camera_indices, width=image_resolution[0], height=image_resolution[1])
 
     # Set exposure value
-    cap_left.set(cv2.CAP_PROP_ZOOM, 0)
-    cap_right.set(cv2.CAP_PROP_ZOOM, 0)
+    # cap_left.set(cv2.CAP_PROP_ZOOM, 0)
+    # cap_right.set(cv2.CAP_PROP_ZOOM, 0)
 
+    # Enable auto focus
+    # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1.0)
+    # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1.0)
+    # time.sleep(1)
+    # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 0)
+    # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 0)
+    # time.sleep(1)
+    # cap_left.set(cv2.CAP_PROP_FOCUS, 123)
+    # cap_right.set(cv2.CAP_PROP_FOCUS, 123)
 
     # Print exposure value
     print(f"The exposure value is:{cap_left.get(cv2.CAP_PROP_EXPOSURE)}")
@@ -101,7 +110,7 @@ if __name__ == "__main__":
         print("Error: No cameras are connected.")
     else:
         # Record video for 10 seconds
-        record_video(connected_cameras, "code/videos", width=1920, height=1080, FPS=5, duration=20)
+        record_video(connected_cameras, "code/videos", width=1920, height=1080, FPS=10, duration=10)
 
     # Release cameras
     #release_cameras(connected_cameras)

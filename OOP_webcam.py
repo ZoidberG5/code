@@ -44,13 +44,13 @@ class CameraSystem:
         cap_left.set(cv2.CAP_PROP_FRAME_WIDTH, width)
         cap_left.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
-        # Enable auto-exposure
-        cap_left.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)
-        cap_right.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75) 
+        # # Enable auto-exposure
+        # cap_left.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)
+        # cap_right.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75) 
 
-        # Enable auto-focus try this first!!!
-        cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
-        cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1)
+        # # Enable auto-focus try this first!!!
+        # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
+        # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1)
 
         return cap_right, cap_left
 

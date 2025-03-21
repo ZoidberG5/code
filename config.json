@@ -1,0 +1,26 @@
+{
+    "runtime": {
+        "RUN_ONE_TIME_ONLY": false,
+        "USE_SAVED_VIDEO": true
+    },
+    "image_capture": {
+        "TAKE_NEW_IMAGES": false,
+        "SAVE_IMAGES": true
+    },
+    "algorithm": {
+        "USING_Niconielsen32_ALGORITHEM": false
+    },
+    "object_detection": {
+        "CONF_THRESHOLD": 0.6
+    },
+    "correlation": {
+        "ANGLE_PAIR_THRESHOLD": 5
+    },
+    "camera": {
+        "CAMERA_ID": 0,
+        "image_resolution": [1920, 1080],
+        "camera_fov": [62.2, 48.8],
+        "f": 3.04,
+        "CAMERA_FPS": 30
+    }
+}
