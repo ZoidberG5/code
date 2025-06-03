@@ -11,10 +11,16 @@
         "USING_Niconielsen32_ALGORITHEM": false
     },
     "object_detection": {
-        "CONF_THRESHOLD": 0.6
+        "CONF_THRESHOLD": 0.75,
+        "objects_name":["person", "chair", "car"]
+    },
+    "object_warnings":{
+        "distance_warnings": 5,
+        "angle_warnings": 10,
+        "match_rounds_warnings": 5
     },
     "correlation": {
-        "ANGLE_PAIR_THRESHOLD": 5
+        "ANGLE_PAIR_THRESHOLD": 10
     },
     "camera": {
         "CAMERA_ID": 0,
