@@ -12,6 +12,7 @@ from OOP_yolo_detector import YOLOv5Detector
 from OOP_GUI_radar import RadarDisplay
 import torch
 import json
+import pygame
 
 # Get the current date and time
 now = datetime.now()
@@ -78,10 +79,12 @@ def find_max_in_orb_shai(matrix):
     for r in range(len(matrix)):
         for l in range(len(matrix[r])):
             is_2_similar, orb_result, details = matrix[r][l]
-            if (details['object_name_right'] == details['object_name_left']) and abs(abs(details['right_image_aov']['x']) - abs(details['left_image_aov']['x'])) < config['correlation']['ANGLE_PAIR_THRESHOLD']:
-                pairs.append(((r, l), orb_result))  # Append as a tuple ((r, l), orb_result)
+            delta_angle = abs(details['right_image_aov']['x'] - details['left_image_aov']['x']) #abs(abs(details['right_image_aov']['x']) - abs(details['left_image_aov']['x']))
+            same_name = details['object_name_right'] == details['object_name_left']
+            if not (same_name and delta_angle < config['correlation']['ANGLE_PAIR_THRESHOLD']):
+                print(f"Rejected pair ({r},{l}) - name match: {same_name}, angle diff: {delta_angle:.2f}")
             else:
-                continue
+                pairs.append(((r, l), orb_result))
 
     # Sort pairs by orb_result in descending order
     sorted_pairs = sorted(pairs, key=lambda x: x[1], reverse=True)
@@ -145,11 +148,19 @@ def filter_out_object_types(radar_objects, types_to_exclude):
     """
     return [obj for obj in radar_objects if obj['name'] in types_to_exclude]
 
+def play_sound_pygame(sound_file):
+    try:
+        pygame.mixer.init()
+        pygame.mixer.music.load(sound_file)
+        pygame.mixer.music.play()
+    except Exception as e:
+        logging.error(f"Failed to play sound {sound_file}: {e}")
 
 class TrackedObject:
     def __init__(self, object_id, name, distance, angle):
         self.id = object_id
         self.name = name
+        self.match_count = 1  # Start with 1 when the object is first created
 
         self.kf = cv2.KalmanFilter(4, 2)
         self.kf.measurementMatrix = np.array([[1, 0, 0, 0],
@@ -158,7 +169,12 @@ class TrackedObject:
                                               [0, 1, 0, 1],
                                               [0, 0, 1, 0],
                                               [0, 0, 0, 1]], np.float32)
-        self.kf.processNoiseCov = np.eye(4, dtype=np.float32) * 0.03
+        self.kf.processNoiseCov = np.eye(4, dtype=np.float32) * 1e-4  # smaller = smoother predictions
+        # This controls how quickly the filter adapts to new changes.
+
+        self.kf.measurementNoiseCov = np.eye(2, dtype=np.float32) * 0.5  # increase if noisy input
+        # This tells the Kalman filter to be more skeptical of incoming values.
+
 
         # Initialize both pre and post states
         initial_state = np.array([[distance], [angle], [0], [0]], dtype=np.float32)
@@ -171,6 +187,7 @@ class TrackedObject:
         measurement = np.array([[np.float32(distance)], [np.float32(angle)]])
         self.kf.correct(measurement)
         self.has_been_updated = True
+        self.match_count += 1  # Increment every time this object is matched again
 
     def predict(self):
         if not self.has_been_updated:
@@ -199,7 +216,7 @@ class ObjectTracker:
             matched = False
             for obj_id, obj in self.tracked_objects.items():
                 pred_distance, pred_angle = obj.predict()
-                if obj.name == name and abs(pred_distance - distance) < 1.5 and abs(pred_angle - angle) < 10:
+                if obj.name == name and abs(pred_distance - distance) < 1 and abs(pred_angle - angle) < 5:
                     obj.update(distance, angle)
                     updated_tracked[obj_id] = obj
                     matched_ids.add(obj_id)
@@ -220,12 +237,48 @@ class ObjectTracker:
             filtered_results.append({
                 'id': obj.id,
                 'name': obj.name,
-                'distance': round(float(dist), 2),
-                'angle': round(float(ang), 2)
+                'distance': round(float(dist), 1),
+                'angle': round(float(ang), 1),
+                'match_count': obj.match_count  # Include match count
             })
 
         return filtered_results
 
+class SoundAlertThread(threading.Thread):
+    def __init__(self, monitored_objects, thresholds, sound_path_map):
+        super().__init__(daemon=True)
+        self.monitored_objects = monitored_objects
+        self.thresholds = thresholds
+        self.sound_path_map = sound_path_map
+        self.triggered = {}  # object_id -> set of thresholds already triggered
+
+    def run(self):
+        while True:
+            try:
+                for obj in self.monitored_objects:
+                    obj_id = obj['id']
+                    distance = obj['distance']
+                    match_count = obj['match_count']
+
+                    if match_count < config["object_warnings"]["match_rounds_warnings"]:
+                        continue
+
+                    if obj_id not in self.triggered:
+                        self.triggered[obj_id] = set()
+
+                    for threshold in self.thresholds:
+                        if distance <= threshold and threshold not in self.triggered[obj_id] and abs(obj['angle']) < config["object_warnings"]["angle_warnings"]:
+                            self.triggered[obj_id].add(threshold)
+                            print(f"[SOUND] Object {obj_id} passed threshold {threshold}m")
+                            threading.Thread(
+                                target=play_sound_pygame,
+                                args=(self.sound_path_map[threshold],),
+                                daemon=True
+                            ).start()
+            except Exception as e:
+                logging.error("Error in sound alert thread", exc_info=True)
+
+            time.sleep(0.5)
 
 # Camera and resolution configuration
 #config['camera']['image_resolution'] = [1920, 1080]
@@ -233,7 +286,7 @@ class ObjectTracker:
 #config['camera']['f'] = 3.04  # focal length in [mm]
 
 # Configuration settings
-with open('code/config.json', 'r') as f:
+with open('config.json', 'r') as f:
     config = json.load(f)
 
 #config['CONF_THRESHOLD']  # Confidence threshold for object detection
@@ -264,16 +317,12 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices, device)
             cap_left, cap_right = usb_camera.init_two_cameras(camera_indices, width=config['camera']['image_resolution'][0], height=config['camera']['image_resolution'][1])
         elif config['runtime']['USE_SAVED_VIDEO']:
             # Initialize video files instead of cameras
-            VIDEO_DIR = "code/videos"
-            video_path_left = os.path.join(VIDEO_DIR, "20250321_121636_LEFT_video.mp4")
-            video_path_right = os.path.join(VIDEO_DIR, "20250321_121636_RIGHT_video.mp4")
+            VIDEO_DIR = "videos"
+            video_path_left = os.path.join(VIDEO_DIR, "CUT_EXAMPLES/20250601_104650_LEFT_20_CUT.mp4")
+            video_path_right = os.path.join(VIDEO_DIR, "CUT_EXAMPLES/20250601_104650_RIGHT_20_CUT.mp4")
             cap_left = cv2.VideoCapture(video_path_left)
             cap_right = cv2.VideoCapture(video_path_right)
         round_of_detection = 0
-
-        # print("Checking if video files exist:")
-        # print(f"Left exists? {os.path.exists(video_path_left)} -> {video_path_left}")
-        # print(f"Right exists? {os.path.exists(video_path_right)} -> {video_path_right}")
 
         while True:
             try:
@@ -443,12 +492,14 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices, device)
                 # radar_display.update_display(filtered_objects)
                 # logging.info(f"The data of objects: {filtered_objects}")
 
-
                 # This section is for the object tracking
-                filtered_objects = filter_out_object_types(radar_objects, ['person'])
+                filtered_objects = filter_out_object_types(radar_objects, config["object_detection"]["objects_name"])
                 smoothed_objects = object_tracker.update(filtered_objects)
                 radar_display.update_display(smoothed_objects)
                 logging.info(f"The data of objects (smoothed): {smoothed_objects}")
+
+                # עדכון נתוני אובייקטים למערכת הסאונד
+                sound_monitor.monitored_objects = smoothed_objects
 
                 # Save the round of objects to the monitoring list
                 if round_of_objects != []:
@@ -457,7 +508,7 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices, device)
                 print(monitoring_rounds_of_detections)
 
                 # Optional: Adjust sleep time as needed
-                time.sleep(0.2)  # Delay for the next loop iteration
+                time.sleep(0.1)  # Delay for the next loop iteration
             except Exception as e:
                 logging.critical("Critical error in while loop", exc_info=True)
                 logging.info("The video ended and now the App will be closed! Bye Bye")
@@ -494,6 +545,25 @@ if __name__ == "__main__":
 
         # Create RadarDisplay and start the processing loop in a separate thread
         radar_display = RadarDisplay([])
+
+        # הגדר ספים ומסלולי סאונד לכל סף
+        distance_thresholds = [7.0, 6.0, 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0]
+
+        threshold_sounds = {
+            7.0: "Voices/7_meter.mp3",
+            6.0: "Voices/6_meter.mp3",
+            5.0: "Voices/5_meter.mp3",
+            4.5: "Voices/4.5_meter.mp3",
+            4.0: "Voices/4_meter.mp3",
+            3.5: "Voices/3.5_meter.mp3",
+            3.0: "Voices/3.0_meter.mp3",
+            2.5: "Voices/2.5_meter.mp3",
+            2.0: "Voices/2.0_meter.mp3",
+        }
+
+        # הפעלת ניטור סאונד ברקע
+        sound_monitor = SoundAlertThread(monitored_objects=[], thresholds=distance_thresholds, sound_path_map=threshold_sounds)
+        sound_monitor.start()
 
         # Start the processing loop in a separate thread
         processing_thread = threading.Thread(
