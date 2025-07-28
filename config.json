@@ -1,10 +1,10 @@
 {
     "runtime": {
         "RUN_ONE_TIME_ONLY": false,
-        "USE_SAVED_VIDEO": true
+        "USE_SAVED_VIDEO": false
     },
     "image_capture": {
-        "TAKE_NEW_IMAGES": false,
+        "TAKE_NEW_IMAGES": true,
         "SAVE_IMAGES": true
     },
     "algorithm": {
@@ -12,7 +12,7 @@
     },
     "object_detection": {
         "CONF_THRESHOLD": 0.75,
-        "objects_name":["person", "chair", "car"]
+        "objects_name":["person", "chair", "car", "laptop"]
     },
     "object_warnings":{
         "distance_warnings": 5,

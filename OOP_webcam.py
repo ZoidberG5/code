@@ -44,14 +44,6 @@ class CameraSystem:
         cap_left.set(cv2.CAP_PROP_FRAME_WIDTH, width)
         cap_left.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
-        # # Enable auto-exposure
-        # cap_left.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)
-        # cap_right.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75) 
-
-        # # Enable auto-focus try this first!!!
-        # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1)
-        # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1)
-
         return cap_right, cap_left
 
     def release_two_cameras(self, cap_right, cap_left):
@@ -70,19 +62,6 @@ class CameraSystem:
         :param height: Height of the capture resolution.
         :return: A dictionary with camera index as keys and captured frames as values.
         """
-        # if len(camera_indices) != 2:
-        #     print("This function is designed to capture images from exactly two cameras.")
-        #     return {}
-
-        # # Open both cameras
-        # cap_right = cv2.VideoCapture(camera_indices[0])
-        # cap_left = cv2.VideoCapture(camera_indices[1])
-
-        # # Set the resolution for each camera
-        # cap_left.set(cv2.CAP_PROP_FRAME_WIDTH, width)
-        # cap_left.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
-        # cap_right.set(cv2.CAP_PROP_FRAME_WIDTH, width)
-        # cap_right.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
 
         # Check if both cameras opened successfully
         if not cap_left.isOpened():

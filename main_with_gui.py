@@ -318,8 +318,8 @@ def processing_loop(detector, usb_camera, radar_display, camera_indices, device)
         elif config['runtime']['USE_SAVED_VIDEO']:
             # Initialize video files instead of cameras
             VIDEO_DIR = "videos"
-            video_path_left = os.path.join(VIDEO_DIR, "CUT_EXAMPLES/20250601_104650_LEFT_20_CUT.mp4")
-            video_path_right = os.path.join(VIDEO_DIR, "CUT_EXAMPLES/20250601_104650_RIGHT_20_CUT.mp4")
+            video_path_left = os.path.join(VIDEO_DIR, "20250418_193708_LEFT_video.mp4")
+            video_path_right = os.path.join(VIDEO_DIR, "20250418_193708_RIGHT_video.mp4")
             cap_left = cv2.VideoCapture(video_path_left)
             cap_right = cv2.VideoCapture(video_path_right)
         round_of_detection = 0
@@ -546,7 +546,7 @@ if __name__ == "__main__":
         # Create RadarDisplay and start the processing loop in a separate thread
         radar_display = RadarDisplay([])
 
-        # הגדר ספים ומסלולי סאונד לכל סף
+        # Set thresholds and sound paths for each threshold
         distance_thresholds = [7.0, 6.0, 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0]
 
         threshold_sounds = {

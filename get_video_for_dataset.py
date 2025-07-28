@@ -10,8 +10,8 @@ def init_cameras(camera_indices, width=640, height=480):
     Returns a dictionary with connected cameras and their indices.
     """
     cameras = {
-        "right": cv2.VideoCapture(camera_indices[1]),
-        "left": cv2.VideoCapture(camera_indices[0])
+        "right": cv2.VideoCapture(camera_indices[1], cv2.CAP_DSHOW),
+        "left": cv2.VideoCapture(camera_indices[0], cv2.CAP_DSHOW)
     }
     connected_cameras = {}
     for name, cap in cameras.items():
@@ -39,11 +39,13 @@ def record_video(connected_cameras, save_path, width=640, height=480, FPS=15, du
     # Ensure the save path exists
     os.makedirs(save_path, exist_ok=True)
 
+    current_fps = FPS
+
     # Create VideoWriter objects for each connected camera
     writers = {}
     for name, cap in connected_cameras.items():
         current_time = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-        video_path = f"{save_path}/{current_time}_{name.upper()}_video.mp4"  # Save as MP4
+        video_path = f"{save_path}/{current_time}_{name.upper()}_{current_fps}_video.mp4"  # Save as MP4
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Codec for MP4
         writers[name] = cv2.VideoWriter(video_path, fourcc, FPS, (width, height))
         print(f"Recording {name} camera to: {video_path}")
@@ -80,22 +82,8 @@ if __name__ == "__main__":
     image_resolution = (1920, 1080)
     #connected_cameras = init_cameras(camera_indices, width=1920, height=1080)
 
-    usb_camera = CameraSystem(cameras_distance=0.235, max_cameras=10)
-    cap_left, cap_right = usb_camera.init_two_cameras(camera_indices, width=image_resolution[0], height=image_resolution[1])
-
-    # Set exposure value
-    # cap_left.set(cv2.CAP_PROP_ZOOM, 0)
-    # cap_right.set(cv2.CAP_PROP_ZOOM, 0)
-
-    # Enable auto focus
-    # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 1.0)
-    # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 1.0)
-    # time.sleep(1)
-    # cap_left.set(cv2.CAP_PROP_AUTOFOCUS, 0)
-    # cap_right.set(cv2.CAP_PROP_AUTOFOCUS, 0)
-    # time.sleep(1)
-    # cap_left.set(cv2.CAP_PROP_FOCUS, 123)
-    # cap_right.set(cv2.CAP_PROP_FOCUS, 123)
+    usb_camera = CameraSystem(cameras_distance=0.235, max_cameras=5)
+    cap_right, cap_left = usb_camera.init_two_cameras(camera_indices, width=image_resolution[0], height=image_resolution[1])
 
     # Print exposure value
     print(f"The exposure value is:{cap_left.get(cv2.CAP_PROP_EXPOSURE)}")
@@ -110,7 +98,7 @@ if __name__ == "__main__":
         print("Error: No cameras are connected.")
     else:
         # Record video for 10 seconds
-        record_video(connected_cameras, "code/videos", width=1920, height=1080, FPS=10, duration=10)
+        record_video(connected_cameras, "videos", width=1920, height=1080, FPS=20, duration=15)
 
     # Release cameras
     #release_cameras(connected_cameras)
